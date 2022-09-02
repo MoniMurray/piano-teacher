@@ -8,6 +8,21 @@
     padding: 0;
 }
 
+/* Design colours will broadly follow the traditional piano keyboard of black/ivory or black/white */
+
 body {
-    background-color: #fff;
+    font-family: Lato, sans-serif;
+    font-weight: 300;
+    color: black;
+}
+
+/* Add styling to Website logo and navigation bar which style will carry through the 3 pages */
+h1 {
+    font-family: Nato sans, sans-serif;
+    color: darkgrey;
+}
+
+#website-logo {
+    float: left;
+    padding-left: 25px;
 }
