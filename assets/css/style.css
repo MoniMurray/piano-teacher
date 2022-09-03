@@ -62,7 +62,7 @@ h1 {
 
 #hero-outer {
     width: 100%;
-    height: 600px;
+    height: 60%;
     overflow: hidden;
     position: relative;
     padding: 20px;
@@ -70,6 +70,6 @@ h1 {
 
 #hero-image {
     width: 100%;
-    height: 600px;
+    height: 60%;
     background: url(../images/hero-image-keyboard-and-sheet-music.webp) no-repeat center center;
 }
