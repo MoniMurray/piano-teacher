@@ -32,7 +32,7 @@ h1 {
     float: right;
     display: inline-block;
     padding-right: 25px;
-        
+    
 }
 
 #nav-menu li {
@@ -41,7 +41,7 @@ h1 {
     letter-spacing: 3px;
     list-style-type: none;
     padding-right: 5px;
-    color: darkgrey;
+    color: inherit;
 }
 /* remove navigation underlines */
 #nav-menu a {
@@ -51,7 +51,11 @@ h1 {
 /* create hover effect on nav bar */
 #nav-menu a:hover {
     border-bottom: 1px solid #3a3a3a;
+}
 
+/* create underline effect on active page within nav bar */
+.active {
+    border-bottom: 1px solid #3a3a3a;
 }
 
 #nav-menu, #website-logo {
