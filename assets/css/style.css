@@ -73,3 +73,37 @@ h1 {
     height: 60%;
     background: url(../images/hero-image-keyboard-and-sheet-music.webp) no-repeat center center;
 }
+
+/* footer */
+
+footer {
+    height: 100px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks li {
+    display: inline-block;
+    letter-spacing: 3px;
+    list-style-type: none;
+    padding: 5px;
+    color: darkgrey;
+}
+
+.social-networks a {
+    text-decoration: none;
+}
+
+.social-networks a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.social-networks i {
+    color: #3a3a3a;
+    font-size: 150%;
+    padding: 5px;
+    margin: 1px;
+}
+
