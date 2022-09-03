@@ -40,7 +40,18 @@ h1 {
     font-size: 130%;
     letter-spacing: 3px;
     list-style-type: none;
-    
+    padding-right: 5px;
+     
+}
+/* remove navigation underlines */
+#nav-menu a {
+    text-decoration: none;
+}
+
+/* create hover effect on nav bar */
+#nav-menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+
 }
 
 #nav-menu, #website-logo {
