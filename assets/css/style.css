@@ -25,4 +25,39 @@ h1 {
 #website-logo {
     float: left;
     padding-left: 25px;
+    font-size: 300%;
+}
+
+#nav-menu {
+    float: right;
+    display: inline-block;
+    padding-right: 25px;
+        
+}
+
+#nav-menu li {
+    float: left;
+    font-size: 130%;
+    letter-spacing: 3px;
+    
+}
+
+#nav-menu, #website-logo {
+    line-height: 75px;
+} 
+
+/* hero image placement and styling */
+
+#hero-outer {
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+    padding: 20px;
+}
+
+#hero-image {
+    width: 100%;
+    height: 600px;
+    background: url(../images/hero-image-keyboard-and-sheet-music.webp) no-repeat center center;
 }
