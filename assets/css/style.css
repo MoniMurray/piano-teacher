@@ -41,7 +41,7 @@ h1 {
     letter-spacing: 3px;
     list-style-type: none;
     padding-right: 5px;
-     
+    color: darkgrey;
 }
 /* remove navigation underlines */
 #nav-menu a {
