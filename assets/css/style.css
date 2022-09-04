@@ -122,10 +122,33 @@ h1 {
 .flex-container > div {
     background-color: #3a3a3a;
     width: 30%;
-    margin: 1rem;
+    margin: .5rem;
     padding: 1%;
     font-size: small;
 }
+
+#adult-lessons {
+    background: url(../images/woman-playing-piano.jpeg) no-repeat center center;
+    width: 30%;
+    height: auto;
+}
+
+#piano-keyboard {
+    background: url(../images/piano-keyboard-image.jpg) no-repeat center center;
+    width: 30%;
+    height: auto;
+}
+
+#children-playing {
+    background: url(../images/two-children-playing-piano.jpeg) no-repeat center center;
+    width: 30%;
+    height: auto;
+}
+
+/* Lessons Page */
+
+
+
 
 /* Get In Touch Page */
 
