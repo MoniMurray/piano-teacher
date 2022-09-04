@@ -28,11 +28,23 @@ h1 {
     font-size: 300%;
 }
 
+#website-logo i {
+    color: #3a3a3a;
+    font-size: 50%;
+    padding: 5px;
+    margin: 1px;
+}
+
+/* #animation {
+    background: url(../images/istockphoto-1172929828-640_adpp_is.mp4) no repeat center center;
+    height: 25px;
+
+} */
+
 #nav-menu {
     float: right;
     display: inline-block;
     padding-right: 25px;
-    
 }
 
 #nav-menu li {
@@ -78,6 +90,7 @@ h1 {
     height: 600px;
     background: url(../images/hero-image-keyboard-and-sheet-music.webp) no-repeat center center;
 }
+
 
 /* footer */
 
