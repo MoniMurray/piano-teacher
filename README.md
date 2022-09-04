@@ -1,108 +1,95 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# PIANO TEACHER
 
-Welcome Monica Murray,
+This is a website for a Piano Teacher offering piano tuition.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+A User will be able to read at a glance on the Landing page, or Home page, the Piano Teacher's credentials, that lessons can be provided either in-person, online, or a hybrid of both, and that Piano students of all ages and experience levels are welcome to take lessons.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
 
-## Gitpod Reminders
+## Features
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+### Navigation Bar
 
-`python3 -m http.server`
+Featured on all three pages, the full responsive navigation bar includes links to the Home page, Lessons page and Get in Touch page, and is identical in each page to allow for easy navigation.
+This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 
-A blue button should appear to click: _Make Public_,
+### The Home page image
 
-Another blue button should appear to click: _Open Browser_.
+The landing page, or Home Page, includes a photograph with text overlay to allow the user to see that this is a website promoting and offering the professional service of an experience Piano teacher.
+This section introduces the user to the Piano Teacher with an image of a piano keyboard and sheet music.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: _Make Public_,
+### Piano Teacher's Biography
 
-Another blue button should appear to click: _Open Browser_.
+The Biography section will allow the user see the biography of the Piano teacher overlaid on three further images, following UX 'Rule of 3'.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-To log into the Heroku toolbelt CLI:
+### The Footer
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+The footer section includes links to the relevant social media sites for the Piano Teacher. The links will open to a new tab to allow easy navigation for the user.
+The footer is valuable to the user as it encourages them to keep connected via social media.  The footer also includes an external link to the Royal Irish Academy of Music from where they can purchase Grade music and register for Grade exams. The footer secion will be common to the three pages of the website.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
 
-------
+### Lessons
 
-## Release History
+The Lessons page will provide the user with information about the lessons provided by the Piano Teacher.
+This section is valuable to the user as they will be able to easily identify lessons provided for Adults and lessons provided for Children, where those lessons are taught - In Person or Online - and the cost and duration of those lessons.  
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### Get in Touch
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+This page will allow the user to Get in Touch with the Piano Teacher.  The user can also sign up for a 30 minute trial lesson. The user will be able specify if they would like to take this lesson In Person or Online, indicate whether they have previous experience taking piano lessons, and whether the user is an Adult signing up for lessons for themselves, or whether the user is a Parent signing up for lessons for their child.  The user will be asked to submit their full name and email address.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+<!-- For some/all of your features, you may choose to reference the specific project files that implement them.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+Features Left to Implement
+Another feature idea -->
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+## Testing
+<!-- In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+If this section grows too long, you may want to split it off into a separate file and link to it from here. -->
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+## Validator Testing
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+HTML
+No errors were returned when passing through the official W3C validator
+CSS
+No errors were found when passing through the official (Jigsaw) validator
+<!-- Unfixed Bugs
+You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. -->
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+## Deployment
+This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+<!-- The site was deployed to GitHub pages. The steps to deploy are as follows:
+In the GitHub repository, navigate to the Settings tab
+From the source section drop-down menu, select the Master Branch
+Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html -->
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+## Credits
+<!-- In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+You can break the credits section up into Content and Media, depending on what you have included in your project.
 
-------
+Content
+The text for the Home page was taken from Wikipedia Article A
+Instructions on how to implement form validation on the Sign Up page was taken from Specific YouTube Tutorial
+The icons in the footer were taken from Font Awesome
+Media
+The photos used on the home and sign up page are from This Open Source site
+The images used for the gallery page were taken from this other open source site -->
 
-## FAQ about the uptime script
+The following is good advice from CI...
 
-**Why have you added this script?**
+<!-- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+Writing Your Best Code
+HTML & CSS Coding Best Practices
+Google HTML/CSS Style Guide
+Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process! -->
