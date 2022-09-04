@@ -17,6 +17,11 @@ body {
 }
 
 /* Add styling to Website logo and navigation bar which style will carry through the 3 pages */
+
+header {
+    width: 100%;
+    height: 100px;
+}
 h1 {
     font-family: Nato sans, sans-serif;
     color: darkgrey;
@@ -76,7 +81,7 @@ h1 {
     height: 600px;
     overflow: hidden;
     position: relative;
-    padding: 20px;
+    /* padding: 20px; */
 }
 
 #hero-image {
