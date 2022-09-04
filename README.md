@@ -36,7 +36,7 @@ This section is valuable to the user as they will be able to easily identify les
 
 ### Get in Touch
 
-This page will allow the user to Get in Touch with the Piano Teacher.  The user can also sign up for a 30 minute trial lesson. The user will be able specify if they would like to take this lesson In Person or Online, indicate whether they have previous experience taking piano lessons, and whether the user is an Adult signing up for lessons for themselves, or whether the user is a Parent signing up for lessons for their child.  The user will be asked to submit their full name and email address.
+This page will allow the user to Get in Touch with the Piano Teacher.  The user can also sign up for a 30 minute trial lesson. The user will be able specify if they would like to take this lesson In Person or Online, indicate whether they have previous experience taking piano lessons, and whether the user is an Adult signing up for lessons for themselves, or whether the user is a Parent signing up for lessons for their child.  The user will be asked to submit their full name and email address.  The user will submit their information via a 'Submit' button.
 
 <!-- For some/all of your features, you may choose to reference the specific project files that implement them.
 
@@ -73,6 +73,11 @@ Once the master branch has been selected, the page will be automatically refresh
 The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html -->
 
 ## Credits
+
+### Media
+
+All images were copied from [Pexels] (http://www.pexels.com).
+
 <!-- In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.
 
 You can break the credits section up into Content and Media, depending on what you have included in your project.

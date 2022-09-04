@@ -40,17 +40,18 @@ h1 {
     font-size: 130%;
     letter-spacing: 3px;
     list-style-type: none;
-    padding-right: 5px;
-    color: inherit;
+    padding-right: 15px;
 }
 /* remove navigation underlines */
 #nav-menu a {
     text-decoration: none;
+    color: darkgrey;
 }
 
 /* create hover effect on nav bar */
 #nav-menu a:hover {
     border-bottom: 1px solid #3a3a3a;
+    color: #3a3a3a;
 }
 
 /* create underline effect on active page within nav bar */
