@@ -87,6 +87,7 @@ h1 {
 #hero-image {
     width: 100%;
     height: 600px;
+    background-color: #fff;
     background: url(../images/hero-image-keyboard-and-sheet-music.webp) no-repeat center center;
 }
 
@@ -117,13 +118,14 @@ h1 {
 #signup {
     width: 100%;
     height: 600px;
+    background-color: #fff;
     background: url(../images/Get-in-touch-toddler-playing-piano.jpg) no-repeat center center;
 }
 
 /* footer */
 
 footer {
-    height: 100px;
+    min-height: 100px;
 }
 
 .social-networks {

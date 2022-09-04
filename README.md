@@ -78,6 +78,8 @@ The live link can be found here - https://code-institute-org.github.io/love-runn
 
 All images were copied from [Pexels] (http://www.pexels.com).
 
+How to create a fixed Navigation bar [W3Schools] (https://www.w3schools.com/howto/howto_css_fixed_menu.asp). Amended to suit my Piano Teacher design.
+
 <!-- In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.
 
 You can break the credits section up into Content and Media, depending on what you have included in your project.
