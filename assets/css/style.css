@@ -13,7 +13,7 @@
 body {
     font-family: Lato, sans-serif;
     font-weight: 300;
-    color: black;
+    color: #3a3a3a;
 }
 
 /* Add styling to Website logo and navigation bar which style will carry through the 3 pages */
@@ -23,9 +23,10 @@ header {
     height: 100px;
 }
 
-h1, h2 {
+h1, h2, {
     font-family: Nato sans, sans-serif;
     color: darkgrey;
+    text-transform: uppercase;
 }
 
 #website-logo {
@@ -60,6 +61,7 @@ h1, h2 {
 #nav-menu a {
     text-decoration: none;
     color: darkgrey;
+    text-transform: uppercase;
 }
 
 /* create hover effect on nav bar */
@@ -82,7 +84,7 @@ h1, h2 {
 /* hero image placement and styling */
 
 #hero-outer {
-    background-color: whitesmoke;
+    background-color: rgba (213, 245,39, .16);
     overflow: hidden;
     position: relative;
     width: 100%;
@@ -98,6 +100,22 @@ h1, h2 {
     background: url(../images/hero-image-keyboard-and-sheet-music.webp) no-repeat center center;
 }
 
+/* Add cover text over hero image */
+
+#cover-text {
+    position: absolute;
+
+    top: 50px;
+    right: 400px;
+
+    font-size: 120%;
+
+    background-color: rgba(245, 221, 39, 0.34);
+    color: #fff;
+    
+
+
+}
 /* Piano Teacher Biography Section */
 
 /* #bio-outer {
