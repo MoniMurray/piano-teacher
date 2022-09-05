@@ -31,12 +31,28 @@
             </ul>
         </nav>
     </header>
-    <section id="signup-outer">
+    <section id="signup-outer" class="signup-section">
         <div id="signup">
+            <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
+                <h2>Sign Up for a Piano Lesson</h2>
+                <label for="Name">Name:</label>
+                <input type="text" id="Name" name="User_name" value="YourName" required>
+                <label for="Email">Email:</label>
+                <input type="email" id="Email" name="Email" value="EmailAddress" required>
 
+                <label for="In-Person">In Person Lesson</label>
+                <input type="radio" id="In-Person" required>
+                <label for="Online">Online Lesson</label>
+                <input type="radio" id="Online" required>
+
+                <input type="submit">
+
+            </form>
         </div>
-        Get In Touch</section>
-    
+
+        Get In Touch
+    </section>
+
     <footer>
         <ul class="social-networks">
             <li>
