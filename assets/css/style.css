@@ -23,6 +23,10 @@ header {
     height: 100px;
 }
 
+h1 {
+    text-transform: uppercase;
+}
+
 h1, h2, {
     font-family: Nato sans, sans-serif;
     color: darkgrey;
@@ -33,7 +37,7 @@ h1, h2, {
     float: left;
     padding-left: 25px;
     font-size: 300%;
-}
+   }
 
 #website-logo i {
     color: #3a3a3a;
