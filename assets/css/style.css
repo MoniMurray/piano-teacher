@@ -111,7 +111,7 @@ h1, h2, {
     font-size: 120%;
 
     background-color: rgba(245, 221, 39, 0.34);
-    color: #fff;
+    
     
 
 
@@ -194,6 +194,17 @@ h2 {
     height: 600px;
     background-color: #fff;
     background: url(../images/Get-in-touch-toddler-playing-piano.jpg) no-repeat center center;
+}
+
+/* Form */
+
+.signup-form {
+    color: white;
+    background-color: rgba (245, 221, 39, 0.22);
+    margin: 150 10% 0 0;
+    max-width: 500px;
+    padding: 50px 60% 0;
+    left: 70%;
 }
 
 /* footer */
