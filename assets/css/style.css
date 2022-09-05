@@ -240,6 +240,10 @@ h2 {
     display: block;
 }
 
+.Signup-button:hover {
+    border-color: #4a4a4a;
+}
+
 /* footer */
 
 footer {
