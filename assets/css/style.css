@@ -194,7 +194,7 @@ h2 {
     height: 600px;
 }
 #signup {
-    clear: both;
+    /* does /*clear: both; need to be included after a position: relative? */
     height: 600px;
     background-color: #fff;
     background: url(../images/Get-in-touch-toddler-playing-piano.jpg) no-repeat center center;
@@ -204,6 +204,9 @@ h2 {
 
 /* Form */
 
+.label-style {
+    border: 25px;
+}
 .signup-form h2, h3 {
     color: #fafafa;
     text-align: center;
