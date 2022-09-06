@@ -148,9 +148,8 @@ h2 {
 .flex-container {
     display: flex;
     flex-direction: row;
-    padding-left: 50px;
+    /* padding-left: 50px; */
     width: 100%;
-    /* height: 300px; */
     }
 
 .flex-container > div {
@@ -158,7 +157,6 @@ h2 {
     width: 100px;
     margin: 10px;
     text-align: center;
-
 }
 
 #adult-lessons {
@@ -170,6 +168,7 @@ h2 {
 #piano-keyboard {
     background: url(../images/piano-keyboard-image.jpg) no-repeat center center;
     width: 30%;
+    /* height value has been assigned in #adult-lessons */
     height: auto;
 }
 
@@ -180,8 +179,11 @@ h2 {
 }
 
 /* Lessons Page */
+
+/* Reuse .flex-container but change style to suit Lessons page */
 .flex-container > #Lessons-for-Adults, #Lessons-for-Children {
     height: 600px;
+    padding: 0 0;
     
 }
 #Lessons-for-Adults {
