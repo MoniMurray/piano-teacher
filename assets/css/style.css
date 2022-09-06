@@ -148,36 +148,42 @@ h2 {
 .flex-container {
     display: flex;
     flex-direction: row;
-    /* padding-left: 50px; */
     width: 100%;
     }
 
 .flex-container > div {
     background-color: #3a3a3a;
-    width: 100px;
+    width: 100%;
     margin: 10px;
     text-align: center;
+    align-items: stretch;
 }
 
 #adult-lessons {
     background: url(../images/woman-playing-piano.jpeg) no-repeat center center;
-    width: 30%;
+    width: 33%;
     height: 300px;
-}
+    }
 
 #piano-keyboard {
     background: url(../images/piano-keyboard-image.jpg) no-repeat center center;
-    width: 30%;
+    width: 33%;
     /* height value has been assigned in #adult-lessons */
     height: auto;
 }
 
 #children-playing {
     background: url(../images/two-children-playing-piano.jpeg) no-repeat center center;
-    width: 30%;
+    width: 33%;
     height: auto;
 }
 
+.intro {
+    opacity: 1;
+    visibility: visible;
+    color: #fff;
+    
+}
 /* Lessons Page */
 
 /* Reuse .flex-container but change style to suit Lessons page */
