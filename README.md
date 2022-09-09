@@ -80,6 +80,8 @@ All images were copied from [Pexels] (http://www.pexels.com).
 
 How to create a fixed Navigation bar [W3Schools] (https://www.w3schools.com/howto/howto_css_fixed_menu.asp). Amended to suit my Piano Teacher design.
 
+Responsive placement of text over an image googled and learned from [W3Schools] (https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_hero_image).
+
 The Form on the Get in Touch page was created using the steps in Challenge 1 and Challenge 2 of Love Running Walkthrough project, with adjustments to suit the Piano Teacher form as I designed.
 
 <!-- In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.
