@@ -35,7 +35,7 @@ h1, h2, {
 
 #website-logo {
     float: left;
-    padding-left: 25px;
+    padding-left: 1.6vw;
     font-size: 300%;
    }
 
@@ -49,7 +49,7 @@ h1, h2, {
 #nav-menu {
     float: right;
     display: inline-block;
-    padding-right: 25px;
+    padding-right: 1.6vw;
 }
 
 #nav-menu li {
@@ -93,7 +93,7 @@ h1, h2, {
     position: relative;
     width: 100%;
     height: 600px;
-    /* padding: 20px; */
+    padding: 20px;
 }
 
 #hero-image {
@@ -102,26 +102,11 @@ h1, h2, {
     
     background-color: #fff;
     background: url(../images/hero-image-keyboard-and-sheet-music.webp) no-repeat center center;
-    /* background-size: cover; */
+    background-size: cover;
     background-position: center;
 }
 
 /* Add cover text over hero image */
-
-/* .cover-text {
-    position: absolute;
-
-    top: 50px;
-    right: 400px;
-
-    font-size: 120%;
-
-    background-color: rgba(105, 105, 100, 0.34);
-    border-radius: 2px;
-    padding: 10px;
-} */
-
-/* trying vw instead of px for responsiveness */
 
 .cover-text {
     position: absolute;
