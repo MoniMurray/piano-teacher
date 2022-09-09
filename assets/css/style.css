@@ -57,7 +57,7 @@ h1, h2, {
     font-size: 130%;
     letter-spacing: 3px;
     list-style-type: none;
-    padding-right: 15px;
+    padding-right: 1vw;
 }
 
 /* remove navigation underlines */
@@ -286,7 +286,7 @@ br {
 /* footer */
 
 footer {
-    min-height: 100px;
+    min-height: 6.25vw;
      
 }
 
