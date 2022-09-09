@@ -36,7 +36,7 @@ This section is valuable to the user as they will be able to easily identify les
 
 ### Get in Touch
 
-This page will allow the user to Get in Touch with the Piano Teacher.  The user can also sign up for a 30 minute trial lesson. The user will be able specify if they would like to take this lesson In Person or Online, indicate whether they have previous experience taking piano lessons, and whether the user is an Adult signing up for lessons for themselves, or whether the user is a Parent signing up for lessons for their child.  The user will be asked to submit their full name and email address.  The user will submit their information via a 'Submit' button.
+This page will allow the user to Get in Touch with the Piano Teacher.  The user can also sign up for a 30 minute trial lesson. The user will be asked to submit their full name and email address.  The user will be able to choose a radio button to specify if they would like to take this lesson In Person or Online, indicate whether they have previous experience taking piano lessons by ticking a checkbox, and use a radio button to specify whether the user is an Adult signing up for lessons for themselves, or whether the user is a Parent signing up for lessons for their child.  The user will submit their information via a 'Submit' button.
 
 <!-- For some/all of your features, you may choose to reference the specific project files that implement them.
 
