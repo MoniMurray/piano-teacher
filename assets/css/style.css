@@ -87,7 +87,7 @@ h1, h2, {
 
 /* hero image placement and styling */
 
-#hero-outer {
+.hero-outer {
     background-color: rgba (213, 245,39, .16);
     overflow: hidden;
     position: relative;
@@ -108,7 +108,7 @@ h1, h2, {
 
 /* Add cover text over hero image */
 
-#cover-text {
+.cover-text {
     position: absolute;
 
     top: 50px;
@@ -159,20 +159,20 @@ h2 {
     align-items: stretch;
 }
 
-#adult-lessons {
+.adult-lessons {
     background: url(../images/woman-playing-piano.jpeg) no-repeat center center;
     width: 33%;
     height: 300px;
     }
 
-#piano-keyboard {
+.piano-keyboard {
     background: url(../images/piano-keyboard-image.jpg) no-repeat center center;
     width: 33%;
     /* height value has been assigned in #adult-lessons */
     height: auto;
 }
 
-#children-playing {
+.children-playing {
     background: url(../images/two-children-playing-piano.jpeg) no-repeat center center;
     width: 33%;
     height: auto;
@@ -275,7 +275,7 @@ br {
     text-align: center;
     font-size: 100%;
     color: #2a2a2a;
-    display: block;
+    display: block center;
     background-color: #a7a0a0;
 }
 
@@ -320,3 +320,13 @@ footer {
     margin: 1px;
 }
 
+/* Mobile first responsive design - media queries */
+
+[class*] {
+    width: 100%;
+}
+
+@media screen and (min-width 640px) {
+    width: 100%;
+    
+}
