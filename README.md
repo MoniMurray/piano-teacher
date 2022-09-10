@@ -46,6 +46,9 @@ Features Left to Implement
 Another feature idea -->
 
 ## Testing
+
+During coding and while ensuring the page was responsive, I had some issues with margin size interfering with element appearance on the page.  I used DevTools to source and fix the problem.
+
 <!-- In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.

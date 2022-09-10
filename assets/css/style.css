@@ -353,10 +353,10 @@ footer {
     width: 100%;
 }
 
-@media screen and (max-width: 640px) {
+/* @media screen and (max-width: 640px) {
     width: 100%;
 
-}
+} */
 
 @media screen and (max-width: 960px) {
        #nav-menu {
@@ -369,6 +369,10 @@ footer {
     .hero-outer {
         width: 90%;
         height: 1200px;
+        margin: 0 auto;
+    }
+
+    .cover-text {
         margin: 0 auto;
     }
 
