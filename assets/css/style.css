@@ -3,7 +3,7 @@
 /* clear inherited box model styling as taught in Love Running Walkthrough Project */
 
 * {
-    margin: 0;
+    /* margin: 0; */
     border: auto;
     padding: 0;
 }
@@ -35,8 +35,11 @@ h1, h2, {
 
 #website-logo {
     float: left;
-    padding-left: 1.6vw;
+    padding-left: 2vw;
     font-size: 300%;
+    letter-spacing: 3px;   
+    vertical-align: middle; 
+    margin-bottom: 0;
    }
 
 #website-logo i {
