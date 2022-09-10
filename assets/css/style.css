@@ -37,6 +37,7 @@ h2 {
 #website-logo {
     float: left;
     padding-left: 2vw;
+    /* change from % to rem */
     font-size: 300%;
     letter-spacing: 3px;
     vertical-align: middle;
@@ -158,10 +159,14 @@ h2 {
 
 .flex-container>div {
     background-color: #3a3a3a;
-    width: 100%;
+    width: 30%;
     margin: 10px;
     text-align: center;
-    align-items: stretch;
+    /* align-items: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
 }
 
 .adult-lessons {
@@ -189,16 +194,14 @@ h2 {
 /* place text inside images */
 
 .bio-text {
+    justify-content: center; 
     text-align: center;
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translate(-45%, -50%);
     color: white;
-
     background-color: rgba(105, 100, 100, 0.34);
-    border-radius: .125vw;
-    padding: .625vw;
+    border-radius: 0.125vw;
+    padding: 0.625vw;
+    width: 55%;
+    margin: 0 auto;
 }
 
 
