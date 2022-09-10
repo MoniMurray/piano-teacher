@@ -208,7 +208,7 @@ h2 {
 .flex-container>#Lessons-for-Adults,
 #Lessons-for-Children {
     height: 600px;
-    padding: 0 0;
+    margin: 1%;
 }
 
 #Lessons-for-Adults {
@@ -354,12 +354,31 @@ footer {
 }
 
 @media screen and (max-width: 640px) {
-    /* width: 100%; */
+    
 
     .flex-container {
         display: flex;
         flex-direction: column;
+
+        width: 90%;}
+
+    .flex-container>div {
+        width: 95%;
+        margin: 5%;
+            }
+
+    .bio-text {    
+        /* flex-wrap: wrap;
+        flex-shrink: 1; */
+        width: 80%;
     }
+    
+    .flex-container>#Lessons-for-Adults,
+#Lessons-for-Children {
+        width: 95%;
+        margin: 5%;
+        padding: 2%;
+}
 }
 
 @media screen and (max-width: 960px) {
