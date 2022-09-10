@@ -148,8 +148,8 @@ h2 {
 }
 
 .flex-container {
-    /* display: flex;
-    flex-direction: row; */
+    display: flex;
+    /* flex-direction: row; */ 
     width: 100%;
     position: relative;
 }
@@ -161,7 +161,7 @@ h2 {
     text-align: center;
     /* align-items: center; */
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     margin: 0 auto;
 }
@@ -353,10 +353,14 @@ footer {
     width: 100%;
 }
 
-/* @media screen and (max-width: 640px) {
-    width: 100%;
+@media screen and (max-width: 640px) {
+    /* width: 100%; */
 
-} */
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
 
 @media screen and (max-width: 960px) {
     #nav-menu {
