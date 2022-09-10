@@ -60,7 +60,11 @@ If this section grows too long, you may want to split it off into a separate fil
 ## Validator Testing
 
 HTML
-No errors were returned when passing through the official W3C validator
+First pass through W3C validator returned an error in the meta element where the 'name' and 'content' attributes were incorrectly assigned. Fixed.
+
+No errors were subsequently returned when passing through the official W3C validator    
+![W3C Validation Screenshot](/assets/images/w3c-html-validation.png)
+
 CSS
 No errors were found when passing through the official (Jigsaw) validator
 <!-- Unfixed Bugs
