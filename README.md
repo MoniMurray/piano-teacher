@@ -97,6 +97,12 @@ Media screen responsivness and how to style sections for smaller device sizes ta
 
 The Form on the Get in Touch page was created by following the steps in Challenge 1 and Challenge 2 of Love Running Walkthrough project, with adjustments to suit the Piano Teacher form as I designed.
 
+## Wireframe
+
+The Wireframe for this Project was created using Balsamiq and can be viewed ![here]
+
+
+
 <!-- In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.
 
 You can break the credits section up into Content and Media, depending on what you have included in your project.
