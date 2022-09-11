@@ -176,15 +176,14 @@ h2 {
 .piano-keyboard {
     background: url(../images/piano-keyboard-image.jpg) no-repeat center center;
     width: 33%;
-    /* height value has been assigned in #adult-lessons */
-    height: auto;
+    height: 300px;
     position: relative;
 }
 
 .children-playing {
     background: url(../images/two-children-playing-piano.jpeg) no-repeat center center;
     width: 33%;
-    height: auto;
+    height: 300px;
     position: relative;
 }
 
