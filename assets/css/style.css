@@ -380,6 +380,10 @@ footer {
         padding: 2%;
 }
 
+#signup {
+    height: 100%;
+}
+
 .signup-form {
     background-color: rgb(14 13 13 / 40%);
     
@@ -387,6 +391,7 @@ footer {
     right: 2%;
     top: 5%;
 }
+
 }
 
 @media screen and (max-width: 960px) {
