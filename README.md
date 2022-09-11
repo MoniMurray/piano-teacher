@@ -1,8 +1,8 @@
 # PIANO TEACHER
 
-This is a website for a Piano Teacher offering piano tuition.
+This is the website of a Piano Teacher offering tuition in piano.
 
-A User will be able to read at a glance on the Landing page, or Home page, the Piano Teacher's credentials, that lessons can be provided either in-person, online, or a hybrid of both, and that Piano students of all ages and experience levels are welcome to take lessons.
+A User will be able to see at a glance on the Home page, the Piano Teacher's credentials, that lessons can be provided either in-person, online, or a hybrid of both, and that Piano students of all ages and experience levels are welcome to take lessons.
 
 
 ## Features
