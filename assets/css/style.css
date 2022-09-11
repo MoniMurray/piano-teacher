@@ -261,13 +261,13 @@ h3 {
 .signup-form {
     color: white;
     background-color: rgb(14 13 13 / 40%);
-    max-width: 500px;
-
+    
     position: absolute;
 
-    padding: 30px;
+    padding: 2%;
     left: 50%;
     top: 5%;
+    right: 2%;
 }
 
 .text-input {
@@ -378,6 +378,14 @@ footer {
         width: 95%;
         margin: 5%;
         padding: 2%;
+}
+
+.signup-form {
+    background-color: rgb(14 13 13 / 40%);
+    
+    left: 2%;
+    right: 2%;
+    top: 5%;
 }
 }
 
