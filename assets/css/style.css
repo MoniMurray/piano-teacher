@@ -59,7 +59,7 @@ h2 {
 
 #nav-menu li {
     float: left;
-    font-size: 130%;
+    font-size: 2rem;
     letter-spacing: 3px;
     list-style-type: none;
     padding-right: 1vw;
@@ -107,7 +107,7 @@ h2 {
     height: 100%;
 
     background-color: #fff;
-    background: url(../images/hero-image-keyboard-and-sheet-music.webp) no-repeat center center;
+    background: url(../images/hero-image.jpg) no-repeat center center;
     background-size: cover;
     background-position: center;
 }
@@ -283,15 +283,15 @@ h3 {
     border-color: #4a4a4a;
 }
 
-br {
+/* br {
     clear: both;
     height: 50px;
-}
+} */
 
-.line-break {
+/* .line-break {
     margin-bottom: 25px;
     display: inline-block;
-}
+} */
 
 .Signup-button {
     margin-top: 20px;
