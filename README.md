@@ -15,28 +15,28 @@ This section will allow the user to easily navigate from page to page across all
 ### The Home page image
 
 The landing page, or Home Page, includes a photograph with text overlay to allow the user to see that this is a website promoting and offering the professional service of an experience Piano teacher.
-This section introduces the user to the Piano Teacher with an image of a piano keyboard and sheet music.
+This section introduces the user to the Piano Teacher with an image of a piano keyboard.
 
 
 ### Piano Teacher's Biography
 
-The Biography section will allow the user see the biography of the Piano teacher overlaid on three further images, following UX 'Rule of 3'.
+The Biography section allows the user see the biography of the Piano teacher overlaid on three further images, following UX 'Rule of 3'.
 
 
 ### The Footer
 
 The footer section includes links to the relevant social media sites for the Piano Teacher. The links will open to a new tab to allow easy navigation for the user.
-The footer is valuable to the user as it encourages them to keep connected via social media.  The footer also includes an external link to the Royal Irish Academy of Music from where they can purchase Grade music and register for Grade exams. The footer secion will be common to the three pages of the website.
+The footer is valuable to the user as it encourages them to keep connected via social media.  The footer also includes an external link to the Royal Irish Academy of Music from where they can purchase Grade music and register for Grade exams. The footer section will be common to the three pages of the website.
 
 
 ### Lessons
 
-The Lessons page will provide the user with information about the lessons provided by the Piano Teacher.
-This section is valuable to the user as they will be able to easily identify lessons provided for Adults and lessons provided for Children, where those lessons are taught - In Person or Online - and the cost and duration of those lessons.  
+The Lessons page will provide the user with information about the lessons provided by the Piano Teacher and what they broadly cover.
+This section is valuable to the user as they will be able to easily identify lessons provided for Adults and lessons provided for Children, where those lessons are taught - In Person or Online - the duration of those lessons and what they cover.  
 
 ### Get in Touch
 
-This page will allow the user to Get in Touch with the Piano Teacher.  The user can also sign up for a 30 minute trial lesson. The user will be asked to submit their full name and email address.  The user will be able to choose a radio button to specify if they would like to take this lesson In Person or Online, indicate whether they have previous experience taking piano lessons by ticking a checkbox, and use a radio button to specify whether the user is an Adult signing up for lessons for themselves, or whether the user is a Parent signing up for lessons for their child.  The user will submit their information via a 'Submit' button.
+This page will allow the user to Get in Touch with the Piano Teacher.  The user can also sign up for a piano lesson. The user will be asked to submit their full name and email address.  The user will be required to select a radio button to specify if they would like to take this lesson In Person or Online; indicate, by ticking a checkbox, whether they have previous experience taking piano lessons; and, use a radio button selection to specify whether the user is an Adult signing up for lessons for themselves, or whether the user is a Parent signing up for lessons for their child.  The user will submit their information via a 'Submit' button.
 
 <!-- For some/all of your features, you may choose to reference the specific project files that implement them.
 
@@ -83,13 +83,15 @@ The live link can be found here - https://code-institute-org.github.io/love-runn
 
 ### Media
 
-All images were copied from [Pexels] (http://www.pexels.com).
+Most images credited to [Pexels](http://www.pexels.com).  
 
-How to create a fixed Navigation bar [W3Schools] (https://www.w3schools.com/howto/howto_css_fixed_menu.asp). Amended to suit my Piano Teacher design.
+Landing image credited to [Unsplash](https://unsplash.com/s/photos/piano).
+
+How to create a fixed Navigation bar [W3Schools](https://www.w3schools.com/howto/howto_css_fixed_menu.asp). Amended to suit my Piano Teacher design.
 
 ### Responsivness
 
-Responsive placement of text over an image googled and learned from [W3Schools] (https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_hero_image).
+Responsive placement of text over an image googled and learned from [W3Schools](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_hero_image).
 
 Media screen responsivness and how to style sections for smaller device sizes taken and adapted from the Love Running Walkthrough project.
 
