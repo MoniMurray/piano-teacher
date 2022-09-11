@@ -35,26 +35,31 @@
         <div id="signup">
             <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
                 <h2>Sign Up for Your Piano Lesson</h2>
-                <label for="Name" class="label-style">Name:</label>
+                <div>
+                    <label for="Name" class="label-style">Name:</label>
                 <input type="text" id="Name" name="User_name" placeholder="Please type your name here" required
                     class="text-input">
+                </div>
+                <div>
+
                 <label for="Email">Email:</label>
                 <input type="email" id="Email" name="Email" placeholder="Please type your email address here" required
                     class="text-input">
+                </div>
                 <br>
                 <br>
 
                 <!-- <label for="Lesson-Location-Preference"> -->
                     <div>
-                        <span><p>I would like to have my lesson</p></span>
+                        <p>I would like to have my lesson <span><label for="In-Person">in person</label>
+                <input type="radio" id="In-Person" name="Lesson-Location-Preference" value="In-Person" required></span>
+                
+                <span><label for="Online">online</label>
+                <input type="radio" id="Online" name="Lesson-Location-Preference" value="Online" required></span></p>
                 <!-- </label> -->
 
                 
-                <span> <label for="In-Person">in person</label></span>
-                <input type="radio" id="In-Person" name="Lesson-Location-Preference" value="In-Person" required>
-                <span>
-                <label for="Online">online</label></span>
-                <input type="radio" id="Online" name="Lesson-Location-Preference" value="Online" required>
+                 
 
         </div>
         <br class="line-break">
@@ -68,12 +73,11 @@
 
        
         <div>
-            <label for="Adult-Student">I am an adult student</label>
+            <p>I am <span><label for="Adult-Student"> an adult student</label>
                 <input type="radio" id="Adult-Student" name="Booking-as" value="Adult-Student" required>
-            </div>
-            <div>
-                <label for="Child-Student">I am a parent booking for child</label>
-                <input type="radio" id="Child-Student" name="Booking-as" value="Child-Student" required>
+            </span>
+                <span><label for="Child-Student"> a parent booking for child</label>
+                <input type="radio" id="Child-Student" name="Booking-as" value="Child-Student" required></span></p>
             
         </div>
 
