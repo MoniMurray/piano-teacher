@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
         content="Piano tuition from an experienced piano teacher in Newbridge, Co Kildare, Ireland">
-        <meta name="keywords"
+    <meta name="keywords"
         content="piano teacher, piano lessons, piano tuition, riam exam preparation, sheet music, keyboard, music theory, beginners, advanced, adult piano lessons, children's piano lessons">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Piano Teacher</title>
@@ -31,42 +31,59 @@
             </ul>
         </nav>
     </header>
-    <section id="signup-outer" >
+    <section id="signup-outer">
         <div id="signup">
             <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
                 <h2>Sign Up for Your Piano Lesson</h2>
                 <label for="Name" class="label-style">Name:</label>
-                <input type="text" id="Name" name="User_name" placeholder="Please type your name here" required class="text-input">
+                <input type="text" id="Name" name="User_name" placeholder="Please type your name here" required
+                    class="text-input">
                 <label for="Email">Email:</label>
-                <input type="email" id="Email" name="Email" placeholder="Please type your email address here" required class="text-input">
+                <input type="email" id="Email" name="Email" placeholder="Please type your email address here" required
+                    class="text-input">
                 <br>
                 <br>
+
+                <!-- <label for="Lesson-Location-Preference"> -->
+                    <div>
+                        <span><p>I would like to have my lesson</p></span>
+                <!-- </label> -->
+
                 
-                <label for="Lesson-Location-Preference">I would like to have my lesson</label>
-                <label for="In-Person">in person</label>
+                <span> <label for="In-Person">in person</label></span>
                 <input type="radio" id="In-Person" name="Lesson-Location-Preference" value="In-Person" required>
-                <label for="Online">online</label>
+                <span>
+                <label for="Online">online</label></span>
                 <input type="radio" id="Online" name="Lesson-Location-Preference" value="Online" required>
-                <br class="line-break">
-                <br>
 
-                
-                <input type="checkbox" id="checkbox" name="Previous-piano-experience" value="yes" required>
-                <label for="Checkbox">I have taken piano lessons before</label>
-                <br class="line-break">
-                <br>
+        </div>
+        <br class="line-break">
+        <br>
 
+
+        <input type="checkbox" id="checkbox" name="Previous-piano-experience" value="yes" required>
+        <label for="Checkbox">I have taken piano lessons before</label>
+        <br class="line-break">
+        <br>
+
+       
+        <div>
+            <span> 
                 <label for="Adult-Student">I am an adult student</label>
-                <input type="radio" id="Adult-Student" name="Booking-as" value="Adult-Student"required>
+                <input type="radio" id="Adult-Student" name="Booking-as" value="Adult-Student" required>
+            </span>
+            <span>
                 <label for="Child-Student">a parent booking for child</label>
                 <input type="radio" id="Child-Student" name="Booking-as" value="Child-Student" required>
-
-                <input type="submit" value="Book Your Lesson" class="Signup-button">
-
-            </form>
+            </span>
         </div>
 
-        
+        <input type="submit" value="Book Your Lesson" class="Signup-button">
+
+        </form>
+        </div>
+
+
     </section>
 
     <footer>
