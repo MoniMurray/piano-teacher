@@ -353,8 +353,67 @@ footer {
     width: 100%;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 670px) {
     
+#website-logo {
+    font-size: 3.5rem;
+}
+
+    /* .flex-container {
+        display: flex;
+        flex-direction: column;
+
+        width: 90%;}
+
+    .flex-container>div {
+        width: 95%;
+        margin: 5%;
+            }
+
+    .bio-text {    
+        /* flex-wrap: wrap;
+        flex-shrink: 1; */
+        /* width: 80%;
+    } */
+    
+    /* .flex-container>#Lessons-for-Adults,
+#Lessons-for-Children {
+        width: 95%;
+        margin: 5%;
+        padding: 2%;
+} */ */
+
+#signup {
+    height: 100%;
+}
+
+.signup-form {
+    background-color: rgb(14 13 13 / 40%);
+    
+    left: 2%;
+    right: 2%;
+    top: 5%;
+}
+
+}
+
+@media screen and (max-width: 1200px) {
+    #nav-menu {
+        clear: left;
+        float: left;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    .hero-outer {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    .cover-text {
+        margin: 0 auto;
+    }
 
     .flex-container {
         display: flex;
@@ -379,37 +438,4 @@ footer {
         margin: 5%;
         padding: 2%;
 }
-
-#signup {
-    height: 100%;
-}
-
-.signup-form {
-    background-color: rgb(14 13 13 / 40%);
-    
-    left: 2%;
-    right: 2%;
-    top: 5%;
-}
-
-}
-
-@media screen and (max-width: 960px) {
-    #nav-menu {
-        clear: left;
-        float: left;
-        margin-bottom: 20px;
-        line-height: 25px;
-    }
-
-    .hero-outer {
-        width: 90%;
-        height: 1200px;
-        margin: 0 auto;
-    }
-
-    .cover-text {
-        margin: 0 auto;
-    }
-
 }
