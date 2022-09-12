@@ -222,9 +222,9 @@ h2 {
 
 .website-logo {
     position: absolute;
-    top: 5px;
-    left: 10rem;
-    font-size: 1.2rem;
+    /* top: 5px; */
+    left: 40%;
+    font-size: 2rem;
     color: #0e2431;
     
     letter-spacing: 3px;
