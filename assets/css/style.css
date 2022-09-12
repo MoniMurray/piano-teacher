@@ -172,6 +172,7 @@ h2 {
     width: 33%;
     height: 300px;
     position: relative;
+    background-size: cover;
 }
 
 .piano-keyboard {
@@ -418,7 +419,7 @@ footer {
         display: flex;
         flex-direction: column;
 
-        width: 90%;}
+        width: 95%;}
 
     .flex-container>div {
         width: 95%;
