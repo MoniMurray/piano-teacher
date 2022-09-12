@@ -513,8 +513,12 @@ footer {
 
 @media screen and (max-width: 670px) {
     
-#website-logo {
-    font-size: 3.5rem;
+.website-logo {
+    left: 6rem;
+}
+
+.website-logo i {
+    display: none;
 }
 
     /* .flex-container {
