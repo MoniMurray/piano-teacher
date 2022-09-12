@@ -234,7 +234,7 @@ h2 {
 .nav-container input[type="checkbox"]:checked ~ .nav-menu {
     transform: translateX(0);
     z-index: 6;
-    position: absolute;
+    /*position: absolute; */
 
 }
 
@@ -247,10 +247,6 @@ h2 {
 }
 .nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
     transform: rotate(-45deg);
-}
-
-.nav-container input[type="checkbox"]:checked ~ .website-logo {
-    display: none;
 }
 
 /* hero image placement and styling */
