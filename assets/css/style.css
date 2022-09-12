@@ -16,9 +16,9 @@ body {
     color: #3a3a3a;
 }
 
-/* Add styling to Website logo and navigation bar which style will carry through the 3 pages */
+/* Original Website logo and navigation bar which style will carry through the 3 pages */
 
-header {
+/* header {
     width: 100%;
     height: 10rem;
 }
@@ -36,7 +36,7 @@ h2 {
 
 #website-logo {
     /* float: left; */
-    padding-left: 2vw;
+    /* padding-left: 2vw;
     font-size: 4rem;
     letter-spacing: 3px;
     vertical-align: middle;
@@ -51,9 +51,9 @@ h2 {
     margin: 1px;
 }
 
-#nav-menu {
+#nav-menu { */
     /* float: right; */
-    display: inline-block;
+    /* display: inline-block;
     padding-right: 1.6vw;
 }
 
@@ -69,27 +69,184 @@ h2 {
 #website-logo {
     line-height: 5rem;
     vertical-align: 50%;
-}
+} */
 
 /* remove navigation underlines */
 
-#nav-menu a {
+/* #nav-menu a {
     text-decoration: none;
     color: #2a2a2a;
     text-transform: uppercase;
-}
+} */
 
 /* create hover effect on nav bar */
 
-#nav-menu a:hover {
+/* #nav-menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+    color: #3a3a3a;
+} */
+
+/* create underline effect on active page within nav bar */
+
+/* .active {
+    border-bottom: 1px solid #3a3a3a;
+} */ */
+
+/* Header and Hamburger Menu Navigation as learned from codepen.io and practised in my own repo Piano Lessons */
+
+/* full header width */
+.nav-bar {
+    width: 100%;
+    line-height: 5rem;
+}
+
+/* container within full header width */
+.container {
+    width: 90%;
+    margin: 2rem;
+    max-width: 1050px;
+}
+
+/* container in which to hold hamburger menu list drop-down */
+/* .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px; */
+    /* position: relative; */
+}
+
+.nav-bar .nav-menu {
+    display: flex;
+}
+
+.nav-bar .nav-container li {
+    list-style: none;
+}
+
+
+.nav-bar .nav-container a {
+    text-decoration: none;
+    color: #2a2a2a;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding: 0.7rem;
+}
+
+.nav-bar .nav-container a:hover {
     border-bottom: 1px solid #3a3a3a;
     color: #3a3a3a;
 }
 
-/* create underline effect on active page within nav bar */
+.nav-container {
+    display: block;
+    position: relative;
+    height: 60px;
+    vertical-align: middle;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-container .checkbox {
+    position: absolute;
+    display: block;
+    height:30px;
+    width:30px;
+    top: 20px;
+    left: 20px;
+    z-index: 5;
+    opacity: 0;
+    cursor: pointer;
+}
 
 .active {
     border-bottom: 1px solid #3a3a3a;
+}
+
+/* hamburger lines */
+.nav-container .hamburger-lines {
+    display: block;
+    height: 26px;
+    width: 32px;
+    position: absolute;
+    top: 35px;
+    left: 20px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.nav-container .hamburger-lines .line {
+    display: block;
+    height: 4px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #3a3a3a;
+}
+
+.nav-container .hamburger-lines .line1 {
+    transform-origin: 0% 0%;
+    transition: transform 0.4s ease-in-out;
+}
+.nav-container .hamburger-lines .line2 {
+    transition: transform 0.2s ease-in-out;
+}
+.nav-container .hamburger-lines .line3 {
+    transform-origin: 0% 100%;
+    transition: transform 0.4s ease-in-out;
+}
+
+.nav-bar .nav-menu {
+    padding-top: 120px;
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+    height: 100vh;
+    width: 100%;
+    transform: translate(-150%);
+    display: flex;
+    flex-direction: column;
+    margin-left: -40px;
+    padding-left: 50px;
+    transition: transform 0.5s ease-in-out;
+    text-align: center;
+}
+
+.nav-bar .nav-menu li {
+    margin-bottom: 1.2rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.website-logo {
+    position: absolute;
+    top: 5px;
+    left: 10rem;
+    font-size: 1.2rem;
+    color: #0e2431;
+    
+    letter-spacing: 3px;
+}
+
+
+.nav-container input[type="checkbox"]:checked ~ .nav-menu {
+    transform: translateX(0);
+
+}
+
+.nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
+    transform: rotate(45deg);
+}
+
+.nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line2 {
+    transform: scaleY(0);
+}
+.nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
+    transform: rotate(-45deg);
+}
+
+.nav-container input[type="checkbox"]:checked ~ .website-logo {
+    display: none;
 }
 
 /* hero image placement and styling */
@@ -180,6 +337,7 @@ h2 {
     width: 33%;
     height: 300px;
     position: relative;
+    background-size: cover;
 }
 
 .children-playing {

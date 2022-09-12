@@ -10,13 +10,14 @@
     <meta name="keywords"
         content="piano teacher, piano lessons, piano tuition, riam exam preparation, sheet music, keyboard, music theory, beginners, advanced, adult piano lessons, children's piano lessons">
     <link rel="stylesheet" href="assets/css/style.css">
+    <!-- <link rel="stylesheet" href="/workspace/piano-lessons/assets/css/style.css"> -->
     <title>Piano Teacher</title>
 </head>
 
 <body>
 
-    <!-- Header Structure -->
-    <header>
+    <!-- Original Header Structure -->
+    <!-- <header>
         <a href="index.html"></a>
         <h1 id="website-logo"><i class="fa-solid fa-music"></i> Piano Teacher</h1>
 
@@ -30,7 +31,32 @@
                 </li>
             </ul>
         </nav>
-    </header>
+    </header> -->
+
+    <!-- Header and Hamburger menu navigation - Learned from codepen.io and practiced on my own repo Piano Lessons -->
+
+    <nav>
+        <div class="nav-bar">
+            <div class="container nav-container">
+                <input class="checkbox" type="checkbox" name="checkbox" id="checkbox">
+                <div class="hamburger-lines">
+                    <span class="line line1"></span>
+                    <span class="line line2"></span>
+                    <span class="line line3"></span>
+                </div>
+                <div class="website-logo">
+                    <h1><i class="fa-solid fa-music"></i> Piano Teacher</h1>
+                </div>
+                <div class="nav-menu">
+                    <li> <a href="index.html" class="active">Home</a></li>
+                    <li> <a href="lessons.html">Lessons</a></li>
+                    <li> <a href="get-in-touch.html">Get In Touch</a></li>
+                </div>
+                            </div>
+
+        </div>
+    </nav>
+
     <section class="hero-outer">
         <div id="hero-image"></div>
         <div class="cover-text">
