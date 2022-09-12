@@ -95,6 +95,8 @@ Responsive placement of text over an image googled and learned from [W3Schools](
 
 Media screen responsivness and how to style sections for smaller device sizes taken and adapted from the Love Running Walkthrough project.
 
+Responsive Hamburger menu using CSS credited to [www.codepen.io](https://codepen.io/alvarotrigo/pen/wvrzPWL).
+
 ### Form Creation
 
 The Form on the Get in Touch page was created by following the steps in Challenge 1 and Challenge 2 of Love Running Walkthrough project, with adjustments to suit the Piano Teacher form as I designed.
