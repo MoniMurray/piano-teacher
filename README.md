@@ -1,21 +1,28 @@
 # PIANO TEACHER
 
-This is the website of a Piano Teacher offering tuition in piano.
+This is the website of a fictional Piano Teacher offering tuition in piano in Co. Kildare, Ireland.
 
-A User will be able to see at a glance on the Home page, the Piano Teacher's credentials, that lessons can be provided either in-person, online, or a hybrid of both, and that Piano students of all ages and experience levels are welcome to take lessons.
+A User will be able to see at a glance, on the Home page, the Piano Teacher's credentials, that lessons can be provided either in-person or online, and that Piano students of all ages and experience levels are welcome to take lessons.
 
 
 ## Features
 
+Navigation, Form.
+
 ### Navigation Bar
 
-Featured on all three pages, the full responsive navigation bar includes links to the Home page, Lessons page and Get in Touch page, and is identical in each page to allow for easy navigation.
+Featured on all three pages, the fully responsive, hamburger-styled drop-down navigation bar includes links to the Home page, Lessons page and Get in Touch page, and is identical in each page to allow for intuitive navigation.
 This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 
-### The Home page image
+### The Footer
 
-The landing page, or Home Page, includes a photograph with text overlay to allow the user to see that this is a website promoting and offering the professional service of an experience Piano teacher.
-This section introduces the user to the Piano Teacher with an image of a piano keyboard.
+The footer section includes links to the relevant social media sites for the fictional Piano Teacher. Each of the links will open to a new browser tab to allow easy navigation for the user.
+The footer is valuable to the user as it encourages them to keep connected to the fictional Piano Teacher via social media.  The footer also includes an external link to the Royal Irish Academy of Music from where they can purchase Grade music and register for Grade exams. The footer section is common to the three pages of the website.
+
+## Home page 
+
+The landing page, or Home Page, includes a photograph with text overlay to allow the user to see that this is a website introducing and offering the professional service of an experienced Piano teacher.
+This section introduces the user to the Piano Teacher with background images selected to compliment the purpose of the site.
 
 
 ### Piano Teacher's Biography
@@ -23,20 +30,14 @@ This section introduces the user to the Piano Teacher with an image of a piano k
 The Biography section allows the user see the biography of the Piano teacher overlaid on three further images, following UX 'Rule of 3'.
 
 
-### The Footer
+## Lessons page
 
-The footer section includes links to the relevant social media sites for the Piano Teacher. The links will open to a new tab to allow easy navigation for the user.
-The footer is valuable to the user as it encourages them to keep connected via social media.  The footer also includes an external link to the Royal Irish Academy of Music from where they can purchase Grade music and register for Grade exams. The footer section will be common to the three pages of the website.
+The Lessons page provides the user with information about the lessons provided by the Piano Teacher and what they broadly cover.
+This section is valuable to the user as they will be able to easily identify both the lessons provided for Adults and the lessons provided for Children, the duration of those lessons and what they cover.  
 
+## Get in Touch page
 
-### Lessons
-
-The Lessons page will provide the user with information about the lessons provided by the Piano Teacher and what they broadly cover.
-This section is valuable to the user as they will be able to easily identify lessons provided for Adults and lessons provided for Children, where those lessons are taught - In Person or Online - the duration of those lessons and what they cover.  
-
-### Get in Touch
-
-This page will allow the user to Get in Touch with the Piano Teacher.  The user can also sign up for a piano lesson. The user will be asked to submit their full name and email address.  The user will be required to select a radio button to specify if they would like to take this lesson In Person or Online; indicate, by ticking a checkbox, whether they have previous experience taking piano lessons; and, use a radio button selection to specify whether the user is an Adult signing up for lessons for themselves, or whether the user is a Parent signing up for lessons for their child.  The user will submit their information via a 'Submit' button.
+This page allows the user to submit a Form to book a lesson with the fictional Piano Teacher.  The user is required to enter their full name and email address.  The user is required to select a radio button to specify if they would like to take this lesson In Person or Online; indicate, by ticking a checkbox, whether they have previous experience taking piano lessons; and, use a radio button selection to specify whether the user is an Adult signing up for lessons for themselves, or whether the user is a Parent signing up for lessons for their child.  The user will submit their information via a 'Submit' button.
 
 <!-- For some/all of your features, you may choose to reference the specific project files that implement them.
 
@@ -47,7 +48,9 @@ Another feature idea -->
 
 ## Testing
 
-During coding and while ensuring the page was responsive, I had some issues with margin size interfering with element appearance on the page.  I used DevTools to source and fix the problem.
+During coding and while ensuring the page was responsive, I had some issues with margin size interfering with element appearances on the page.  I used DevTools to source and fix the problem as it arose.
+
+Including a Hamburger drop-down navigation menu took some addition upskilling, and styling the hamburger and it's drop-down menu took time to perfect.  I initially used another of my repositories to work on coding the navigation bar, following instructions from codepen.io, before bringing the code into my Project to fine tune within the pages of my site.
 
 <!-- In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
@@ -71,15 +74,21 @@ No errors were found when passing through the official (Jigsaw) validator
 You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. -->
 
 ## Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)
 
-<!-- The site was deployed to GitHub pages. The steps to deploy are as follows:
-In the GitHub repository, navigate to the Settings tab
-From the source section drop-down menu, select the Master Branch
-Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html -->
+The site was deployed to GitHub pages. 
+
+The steps to deploy are as follows:
+
+In the GitHub repository, navigate to the Settings tab;
+From the Code and Automation area on the left side of the page, select Pages;
+From the source section drop-down menu, select the Master Branch, select Save;
+The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+Once again navigate to the Settings tab, and then to Pages where the live link can now be found.
+The following is a live link to the site - https://monimurray.github.io/piano-teacher/
 
 ## Credits
+
+My mentor provided invaluable help in suggesting better ways to code sections of my site for functionality and responsiveness, for example Flexbox and Hamburger Menu.  My mentor also encouraged me to make better use of DevTools to trial lines of CSS before including what worked in Gitpod.
 
 ### Media
 
