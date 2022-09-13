@@ -202,9 +202,8 @@ h2 {
 
 .nav-bar .nav-menu {
     padding-top: 17rem;
-    box-shadow: inset 0 0 2000px #fafafa;
-    /* height: 100vh; */
-    /* width: 100%; */
+    box-shadow: outset 0 0 2000px #fafafa;
+    
     transform: translate(-150%);
     display: flex;
     flex-direction: column;
@@ -212,6 +211,7 @@ h2 {
     
     transition: transform 0.5s ease-in-out;
     text-align: center;
+    background-color: white;
 }
 
 .nav-bar .nav-menu li {
