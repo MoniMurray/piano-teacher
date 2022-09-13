@@ -104,6 +104,8 @@ The following is a live link to the site - https://monimurray.github.io/piano-te
 
 My mentor provided invaluable help in suggesting better ways to code sections of my site for functionality and responsiveness, for example Flexbox and Hamburger Menu.  My mentor also encouraged me to make better use of DevTools to trial lines of CSS before including what worked in Gitpod.
 
+Colleagues on the SB-jul-2022 Slack channel answered questions and provided encouragment and feedback, and asked questions themselves that helped point me in the right direction when an area of code or point of procedure was proving difficult.
+
 ### Media
 
 Most images credited to [Pexels](http://www.pexels.com).  
