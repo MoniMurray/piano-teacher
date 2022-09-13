@@ -2,49 +2,61 @@
 
 This is the website of a fictional Piano Teacher offering tuition in piano in Co. Kildare, Ireland.
 
-A User will be able to see at a glance, on the Home page, the Piano Teacher's credentials, that lessons can be provided either in-person or online, and that Piano students of all ages and experience levels are welcome to take lessons.
+A User will be able to see at a glance, on the Home page, the Piano Teacher's credentials, that lessons can be provided either in-person or online, and that piano students of all ages and experience levels are welcome to take lessons.
 
 
 ## Features
 
-Navigation, Form.
+Hamburger menu opening drop-down navigation menu; Sign-up Form requiring user input.
 
 ### Navigation Bar
 
 Featured on all three pages, the fully responsive, hamburger-styled drop-down navigation bar includes links to the Home page, Lessons page and Get in Touch page, and is identical in each page to allow for intuitive navigation.
 This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
+An underline will appear on the drop-down menu under the name of the website page currently being viewed by the user.
+Hovering over a page name in the navigation menu will cause that page name to be underlined temporarily.
 
 ### The Footer
 
 The footer section includes links to the relevant social media sites for the fictional Piano Teacher. Each of the links will open to a new browser tab to allow easy navigation for the user.
-The footer is valuable to the user as it encourages them to keep connected to the fictional Piano Teacher via social media.  The footer also includes an external link to the Royal Irish Academy of Music from where they can purchase Grade music and register for Grade exams. The footer section is common to the three pages of the website.
+The footer is valuable to the user as it encourages them to keep connected to the fictional Piano Teacher via social media.  The footer also includes an external link to the Royal Irish Academy of Music from where they can purchase Grade related sheet music and register for Grade exams. The footer section is common across the three pages of the website.
+Each of the social media links were created using font awesome.  Hovering over any of the footer links will cause that link to be underlined temporarily.
 
 ## Home page 
 
 The landing page, or Home Page, includes a photograph with text overlay to allow the user to see that this is a website introducing and offering the professional service of an experienced Piano teacher.
-This section introduces the user to the Piano Teacher with background images selected to compliment the purpose of the site.
+This section introduces the user to the Piano Teacher with a background image selected to compliment and reinforce the purpose of the site.
 
 
 ### Piano Teacher's Biography
 
-The Biography section allows the user see the biography of the Piano teacher overlaid on three further images, following UX 'Rule of 3'.
+The Biography section allows the user see the biography of the Piano teacher overlaid on three further images, following UX 'Rule of 3'. 
+The background images appear in a row on large screen view, and appear in a column in mid-and small screen view.
 
+The html for the Home page is contained in index.html, with CSS code contained in the style.css file.
 
 ## Lessons page
 
 The Lessons page provides the user with information about the lessons provided by the Piano Teacher and what they broadly cover.
 This section is valuable to the user as they will be able to easily identify both the lessons provided for Adults and the lessons provided for Children, the duration of those lessons and what they cover.  
+The images on the Lessons page appear in a row on a large screen view, and appear in a column in mid- and small screen view.
+
+The html for this page is contained in lessons.html, with CSS code contained in the style.css file.
 
 ## Get in Touch page
 
-This page allows the user to submit a Form to book a lesson with the fictional Piano Teacher.  The user is required to enter their full name and email address.  The user is required to select a radio button to specify if they would like to take this lesson In Person or Online; indicate, by ticking a checkbox, whether they have previous experience taking piano lessons; and, use a radio button selection to specify whether the user is an Adult signing up for lessons for themselves, or whether the user is a Parent signing up for lessons for their child.  The user will submit their information via a 'Submit' button.
+This page allows the user to submit a sign-up Form to book a lesson with the fictional Piano Teacher.  The user is required to enter their name and email address.  The user is required to select a radio button to specify if they would like to take this lesson In Person or Online; indicate, by ticking a checkbox, whether they have previous experience taking piano lessons; and, use a radio button selection to specify whether the user is an Adult signing up for lessons for themselves, or whether the user is a Parent signing up for lessons for their child.  Each of these sections are required and a user will be prompted to complete any of these sections left blank on clicking 'Book Your Lesson'.  The user will submit their information via the 'Book Your Lesson' submit button.  The submit button also contains a hover feature which causes it to change colour on mouse hovering over it.
 
-<!-- For some/all of your features, you may choose to reference the specific project files that implement them.
+The html for this page is contained in get-in-touch.html, with CSS code contained in the style.css file.
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+## Images
 
-Features Left to Implement
-Another feature idea -->
+Images for the Project can be viewed in the Images sub-folder of the Assets folder [here](assets/images).
+
+## Future feature ideas
+
+If this website were to be used by a real-world Piano teacher I would include class payment links, ie. via Paypal or Revolut, and enable the user to block-book lessons.
+
 
 ## Testing
 
@@ -94,7 +106,7 @@ My mentor provided invaluable help in suggesting better ways to code sections of
 
 Most images credited to [Pexels](http://www.pexels.com).  
 
-Landing image credited to [Unsplash](https://unsplash.com/s/photos/piano).
+Landing page hero image credited to [Unsplash](https://unsplash.com/s/photos/piano).
 
 How to create a fixed Navigation bar [W3Schools](https://www.w3schools.com/howto/howto_css_fixed_menu.asp). Amended to suit my Piano Teacher design.
 
@@ -104,11 +116,11 @@ Responsive placement of text over an image googled and learned from [W3Schools](
 
 Media screen responsivness and how to style sections for smaller device sizes taken and adapted from the Love Running Walkthrough project.
 
-Responsive Hamburger menu using CSS credited to [www.codepen.io](https://codepen.io/alvarotrigo/pen/wvrzPWL).
+Responsive Hamburger menu using CSS credited to [www.codepen.io](https://codepen.io/alvarotrigo/pen/wvrzPWL) and adapted to suit the style of this Project's website.
 
 ### Form Creation
 
-The Form on the Get in Touch page was created by following the steps in Challenge 1 and Challenge 2 of Love Running Walkthrough project, with adjustments to suit the Piano Teacher form as I designed.
+The Form on the Get in Touch page was created by following the steps in Challenges 1 and 2 of Love Running Walkthrough project, with adjustments to suit the Piano Teacher form as I designed.
 
 ## Wireframe
 
