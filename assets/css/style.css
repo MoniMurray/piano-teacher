@@ -12,7 +12,7 @@
 
 body {
     font-family: Lato, sans-serif;
-    font-weight: 300;
+    font-weight: 500;
     color: #3a3a3a;
 }
 
@@ -137,9 +137,10 @@ h2 {
     text-decoration: none;
     color: #2a2a2a;
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: bold;
     font-size: 1.2rem;
     padding: 0.7rem;
+
 }
 
 .nav-bar .nav-container a:hover {
@@ -201,7 +202,7 @@ h2 {
 
 .nav-bar .nav-menu {
     padding-top: 17rem;
-    box-shadow: inset 0 0 2000px #fff;
+    box-shadow: inset 0 0 2000px #fafafa;
     /* height: 100vh; */
     /* width: 100%; */
     transform: translate(-150%);
@@ -211,13 +212,13 @@ h2 {
     padding-left: 50px; */
     transition: transform 0.5s ease-in-out;
     text-align: center;
-    color:rgba(255, 255, 255, .5);
 }
 
 .nav-bar .nav-menu li {
     margin-bottom: 1.2rem;
     font-size: 1.2rem;
-    font-weight: 500;
+    font-weight: bold;
+    color: white;
 }
 
 .website-logo {
@@ -565,6 +566,7 @@ footer {
         float: left;
         margin-bottom: 20px;
         line-height: 25px;
+        font-weight: bold;
     }
 
     .hero-outer {
