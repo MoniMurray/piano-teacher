@@ -77,6 +77,8 @@ If this section grows too long, you may want to split it off into a separate fil
 HTML
 First pass through W3C validator returned an error in the meta element where the 'name' and 'content' attributes were incorrectly assigned. Fixed.
 
+Following the inclusion of the Hamburger menu, the W3C validator returned an error relating to the list elements containing the navigation anchor elements.  Fixed by adding an unordered list element as a parent to these list elements.
+
 No errors were subsequently returned when passing through the official W3C validator    
 ![W3C Validation Screenshot](/assets/images/w3c-html-validation.png)
 
