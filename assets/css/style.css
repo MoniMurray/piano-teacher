@@ -208,25 +208,10 @@ body {
     color: white;
 }
 
-/* Piano Teacher Biography Section */
-
-/* #bio-outer {
-    overflow: hidden;
-    position: relative;
-    width: 100%;
-    height: 300px;
-}
-
-#animation {
-    background: url(../images/istockphoto-1172929828-640_adpp_is.mp4) no repeat center center;
-    height: 25px;
-    width: 100%;
-
-} */
 h2 {
     text-align: center;
-    font-size: 200%;
-    /* padding: 20px; */
+    font-size: 2.5rem;
+    font-weight: bold;
 }
 
 .flex-container {
@@ -301,6 +286,7 @@ h2 {
 /* Lessons Page */
 
 /* Reuse .flex-container but change style to suit Lessons page */
+
 .flex-container>#Lessons-for-Adults,
 #Lessons-for-Children {
     height: 600px;
@@ -333,7 +319,6 @@ h2 {
 }
 
 #signup {
-    /* does /*clear: both; need to be included after a position: relative? */
     height: 600px;
     background-color: #fff;
     background: url(../images/Get-in-touch-toddler-playing-piano.jpg) no-repeat center center;
@@ -346,6 +331,14 @@ h2 {
 
 .label-style {
     border: 25px;
+}
+
+label {
+    font-size: 1.5rem;
+}
+
+.signup-form p {
+    font-size: 1.5rem;
 }
 
 .signup-form h2,
@@ -363,14 +356,15 @@ h3 {
 
     padding: 2%;
     top: 5%;
-    /* right: 20%; */
+    left: 1%;
+    
 }
 
 .text-input {
     color: #2a2a2a;
     width: 100%;
     height: 25px;
-    /* margin: 5 0 10; */
+    
     border: .5px solid #fafafa;
     border-radius: 1px;
     padding: 2px;
@@ -380,15 +374,6 @@ h3 {
     border-color: #4a4a4a;
 }
 
-/* br {
-    clear: both;
-    height: 50px;
-} */
-
-/* .line-break {
-    margin-bottom: 25px;
-    display: inline-block;
-} */
 
 .Signup-button {
     margin-top: 20px;
@@ -467,42 +452,24 @@ h1 {
     margin: 0 auto;
 }
 
-
-   /* .flex-container {
-        display: flex;
-        flex-direction: column;
-
-        width: 90%;}
-
-    .flex-container>div {
-        width: 95%;
-        margin: 5%;
-            }
-
-    .bio-text {    
-        /* flex-wrap: wrap;
-        flex-shrink: 1; */
-        /* width: 80%;
-    } */
-    
-    /* .flex-container>#Lessons-for-Adults,
-#Lessons-for-Children {
-        width: 95%;
-        margin: 5%;
-        padding: 2%;
-} */ */
-
 #signup {
     height: 100%;
 }
 
 .signup-form {
-    background-color: rgb(14 13 13 / 40%);
     
-    left: 2%;
-    /* right: 2%; */
+    padding: 2%;
     top: 5%;
-}
+    left: 1%;
+    }
+
+    label {
+        font-size: 1rem;
+    }
+    
+    .signup-form p {
+        font-size: 1rem;
+    }
 
 }
 
