@@ -14,6 +14,7 @@ body {
     font-family: Lato, sans-serif;
     font-weight: 500;
     color: #3a3a3a;
+    background-color: #eee;
 }
 
 /* Original Website logo and navigation bar which style will carry through the 3 pages */
@@ -97,32 +98,18 @@ h2 {
 /* full header width */
 .nav-bar {
     width: 100%;
-    line-height: 5rem;
+    line-height: 5rem;;
 }
 
-/* container within full header width */
-.container {
-    width: 90%;
-    margin: 2rem;
-    max-width: 1050px;
-}
-
-/* container in which to hold hamburger menu list drop-down */
-/* .nav-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 62px; */
-    /* position: relative; 
-} */
 .nav-container {
     /* display: block; */
     display: flex;
     position: relative;
-    height: 60px;
+    height: 8rem;
     vertical-align: middle;
     justify-content: space-between;
     align-items: center;
+    width: 95%;
 }
 .nav-bar .nav-menu {
     display: flex;
@@ -172,8 +159,7 @@ h2 {
     height: 26px;
     width: 32px;
     position: absolute;
-    top: 35px;
-    left: 20px;
+    left: 25px;
     z-index: 2;
     display: flex;
     flex-direction: column;
@@ -223,8 +209,7 @@ h2 {
 
 .website-logo {
     position: absolute;
-    /* top: 5px; */
-    left: 40%;
+    left: 50%;
     font-size: 2rem;
     color: #0e2431;
     
@@ -268,6 +253,7 @@ h2 {
     background: url(../images/piano-lesson-sheet-and-keyboard.jpeg) no-repeat center center;
     background-size: cover;
     background-position: center;
+    border: 1px solid #3a3a3a;
 }
 
 /* Add cover text over hero image */
@@ -319,11 +305,11 @@ h2 {
     width: 30%;
     margin: 10px;
     text-align: center;
-    /* align-items: center; */
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin: 0 auto;
+    border: 1px solid #3a3a3a;
 }
 
 .adult-lessons {
@@ -404,6 +390,7 @@ h2 {
     background: url(../images/Get-in-touch-toddler-playing-piano.jpg) no-repeat center center;
     background-size: cover;
     background-position: center;
+    border: 1px solid #3a3a3a;
 }
 
 /* Form */
@@ -489,24 +476,41 @@ footer {
     letter-spacing: 3px;
     list-style-type: none;
     padding: 5px;
+    margin: 1px;
     color: darkgrey;
 }
 
 .social-networks a {
     text-decoration: none;
-}
-
-.social-networks a:hover {
-    border-bottom: 1px solid #3a3a3a;
-}
-
-.social-networks i {
     color: #3a3a3a;
     font-size: 150%;
     padding: 5px;
     margin: 1px;
 }
 
+  
+/* .social-networks i {
+    color: #3a3a3a;
+    font-size: 150%;
+    padding: 5px;
+    margin: 1px;
+} */
+
+.social-networks a:hover {
+    border-color: #3a3a3a;
+    color: #a7a0a0;
+    background-color: #2a2a2a;
+}
+
+/* .social-networks i:hover {
+    border-color: #3a3a3a;
+    color: #a7a0a0;
+    background-color: #2a2a2a;
+} */
+
+.social-networks > ul > li~li {
+    color: red;
+}
 /* Mobile first responsive design - media queries */
 
 [class*] {
