@@ -95,7 +95,8 @@ h2 {
 
 /* Header and Hamburger Menu Navigation as learned from codepen.io and practised in my own repo Piano Lessons */
 .container {
-    margin: none;
+    margin: 0 auto;
+    align-items: center;
 }
 /* full header width */
 .nav-bar {
@@ -111,7 +112,7 @@ h2 {
     vertical-align: middle;
     justify-content: space-between;
     align-items: center;
-    width: 95%;
+    /* width: 95%; */
 }
 .nav-bar .nav-menu {
     display: flex;
@@ -220,6 +221,10 @@ h2 {
     text-transform: uppercase;
 }
 
+.website-logo h1 {
+    text-align: center;
+    width: 100%;
+}
 
 .nav-container input[type="checkbox"]:checked ~ .nav-menu {
     transform: translateX(0);
@@ -352,6 +357,17 @@ h2 {
     margin: 1%;
 }
 
+.bio-text h3 {
+        font-size: 1.5em;
+        
+        font-weight: bold;
+    }
+
+    .bio-text p {
+        font-size: 1em;
+        
+        font-weight: bold;
+    }
 
 /* Lessons Page */
 
@@ -523,13 +539,23 @@ footer {
 
 @media screen and (max-width: 670px) {
     
-.website-logo {
+/* .website-logo {
     left: 6rem;
+    width: 100%; */
+    .website-logo {
+        font-size: 1.5rem;
+        left: 1rem;
+        top: 3rem;
+        width: 100%;
+        margin: none;
+    }
 }
 
-.website-logo i {
-    display: none;
+h1 {
+    margin: 0 auto;
 }
+
+
 
     /* .flex-container {
         display: flex;
@@ -570,14 +596,25 @@ footer {
 }
 
 @media screen and (max-width: 1200px) {
-    #nav-menu {
+    /* #nav-menu {
         clear: left;
         float: left;
         margin-bottom: 20px;
         line-height: 25px;
         font-weight: bold;
+    } */
+
+   
+    .website-logo {
+        left: 25%;
+        margin: none;
     }
 
+    .website-logo h1 {
+            text-align: center;
+        }
+    }
+    
     .hero-outer {
         width: 90%;
         height: 1200px;
@@ -611,4 +648,19 @@ footer {
         width: 95%;
         margin: 5%;
 }
+}
+
+@media screen and (max-width: 320px) {
+    
+    .website-logo {
+        font-size: 1rem;
+        left: 1rem;
+        top: 3rem;
+        width: 100%;
+        margin: none;
+    }
+
+    h1 {
+        margin: 0 auto;
+    }
 }
