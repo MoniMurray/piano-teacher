@@ -4,6 +4,7 @@ This is the website of a fictional Piano Teacher offering tuition in piano in Co
 
 A User will be able to see at a glance, on the Home page, the Piano Teacher's credentials, that lessons can be provided either in-person or online, and that piano students of all ages and experience levels are welcome to take lessons.
 
+![](/assets/images/amiresponsive-screenshots.png)
 
 ## Features
 
