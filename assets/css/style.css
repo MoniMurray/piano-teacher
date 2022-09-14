@@ -231,7 +231,7 @@ h2 {
 
 .flex-container {
     display: flex;
-    /* flex-direction: row; */ 
+    flex-direction: row; 
     width: 100%;
     position: relative;
 }
@@ -241,16 +241,18 @@ h2 {
     width: 30%;
     margin: 10px;
     text-align: center;
+
     display: flex;
     flex-direction: row;
     justify-content: center;
+
     margin: 0 auto;
     border: 1px solid #3a3a3a;
 }
 
 .adult-lessons {
     background: url(../images/woman-playing-piano.jpeg) no-repeat center center;
-    width: 33%;
+    /* width: 33%; */
     height: 300px;
     position: relative;
     background-size: cover;
@@ -258,7 +260,7 @@ h2 {
 
 .piano-keyboard {
     background: url(../images/piano-keyboard-image.jpg) no-repeat center center;
-    width: 33%;
+    /* width: 33%; */
     height: 300px;
     position: relative;
     background-size: cover;
@@ -266,7 +268,7 @@ h2 {
 
 .children-playing {
     background: url(../images/two-children-playing-piano.jpeg) no-repeat center center;
-    width: 33%;
+    /* width: 33%; */
     height: 300px;
     position: relative;
 }
@@ -435,29 +437,12 @@ footer {
     margin: 1px;
 }
 
-  
-/* .social-networks i {
-    color: #3a3a3a;
-    font-size: 150%;
-    padding: 5px;
-    margin: 1px;
-} */
-
 .social-networks a:hover {
     border-color: #3a3a3a;
     color: #a7a0a0;
     background-color: #2a2a2a;
 }
 
-/* .social-networks i:hover {
-    border-color: #3a3a3a;
-    color: #a7a0a0;
-    background-color: #2a2a2a;
-} */
-
-.social-networks > ul > li~li {
-    color: red;
-}
 /* Mobile first responsive design - media queries */
 
 [class*] {
@@ -469,6 +454,7 @@ footer {
 /* .website-logo {
     left: 6rem;
     width: 100%; */
+
     .website-logo {
         font-size: 1.5rem;
         left: 1rem;
@@ -476,15 +462,13 @@ footer {
         width: 100%;
         margin: none;
     }
-}
 
 h1 {
     margin: 0 auto;
 }
 
 
-
-    /* .flex-container {
+   /* .flex-container {
         display: flex;
         flex-direction: column;
 
@@ -523,6 +507,7 @@ h1 {
 }
 
 @media screen and (max-width: 1200px) {
+
     /* #nav-menu {
         clear: left;
         float: left;
@@ -531,8 +516,7 @@ h1 {
         font-weight: bold;
     } */
 
-   
-    .website-logo {
+       .website-logo {
         left: 25%;
         margin: none;
     }
@@ -540,7 +524,7 @@ h1 {
     .website-logo h1 {
             text-align: center;
         }
-    }
+    
     
     .hero-outer {
         width: 90%;
@@ -557,7 +541,8 @@ h1 {
         display: flex;
         flex-direction: column;
 
-        width: 95%;}
+        width: 95%;
+    }
 
     .flex-container>div {
         width: 95%;
@@ -565,16 +550,15 @@ h1 {
             }
 
     .bio-text {    
-        /* flex-wrap: wrap;
-        flex-shrink: 1; */
         width: 80%;
     }
     
     .flex-container>#Lessons-for-Adults,
 #Lessons-for-Children {
         width: 95%;
-        margin: 5%;
+        /* margin: 5%; */
 }
+
 }
 
 @media screen and (max-width: 320px) {
