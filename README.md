@@ -21,7 +21,7 @@ Hovering over a page name in the navigation menu will cause that page name to be
 
 The footer section includes links to the relevant social media sites for the fictional Piano Teacher. Each of the links will open to a new browser tab to allow easy navigation for the user.
 The footer is valuable to the user as it encourages them to keep connected to the fictional Piano Teacher via social media.  The footer also includes an external link to the Royal Irish Academy of Music from where they can purchase Grade related sheet music and register for Grade exams. The footer section is common across the three pages of the website.
-Each of the social media links were created using font awesome.  Hovering over any of the footer links will cause that link to be underlined temporarily.
+Each of the social media links were created using font awesome.  Hovering over any of the footer links will cause that link to highlighted.
 
 ## Home page 
 
@@ -56,14 +56,22 @@ Images for the Project can be viewed in the Images sub-folder of the Assets fold
 
 ## Future feature ideas
 
-If this website were to be used by a real-world Piano teacher I would include class payment links, ie. via Paypal or Revolut, and enable the user to block-book lessons.
+If this website were to be used by a real-world Piano teacher I would include payment links, ie. via Paypal or Revolut, and enable the user to block-book lessons.
 
 
 ## Testing
 
 During coding and while ensuring the page was responsive, I had some issues with margin size interfering with element appearances on the page.  I used DevTools to source and fix the problem as it arose.
 
-Including a Hamburger drop-down navigation menu took some addition upskilling, and styling the hamburger and it's drop-down menu took time to perfect.  I initially used another of my repositories to work on coding the navigation bar, following instructions from codepen.io, before bringing the code into my Project to fine tune within the pages of my site.
+Including a Hamburger drop-down navigation menu took some additional upskilling, and styling the hamburger and it's drop-down menu took time to perfect.  I initially used another of my repositories to work on coding the navigation bar, following instructions from codepen.io, before bringing the code into my Project to fine tune within the pages of my site.
+
+I have tested the links contained within the site on pc and mobile devices.  
+
+I have tested the functionality of the Form, ensuring that where required information is missing that a user is prompted to include that information before they can submit the form.  The form's submission goes to the [CI](https://formdump.codeinstitute.net/). 
+
+Each of the site's pages work well and are responsive on different size devices.
+
+The site has been tested and works well on Chrome, Edge and Firefox.  The site does not display as intented on Internet Explorer - you can see ![here](/assets/images/ie-display-problems.png) that the website logo is hidden behind the hero image, and the hamburger menu, though not deployed, is visible in the right side of the screen.
 
 <!-- In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
