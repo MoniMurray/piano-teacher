@@ -94,7 +94,9 @@ h2 {
 } */ */
 
 /* Header and Hamburger Menu Navigation as learned from codepen.io and practised in my own repo Piano Lessons */
-
+.container {
+    margin: none;
+}
 /* full header width */
 .nav-bar {
     width: 100%;
@@ -159,7 +161,8 @@ h2 {
     height: 26px;
     width: 32px;
     position: absolute;
-    left: 25px;
+    top: 20px;
+    left: 20px;
     z-index: 2;
     display: flex;
     flex-direction: column;
@@ -214,6 +217,7 @@ h2 {
     color: #0e2431;
     
     letter-spacing: 3px;
+    text-transform: uppercase;
 }
 
 
@@ -606,6 +610,5 @@ footer {
 #Lessons-for-Children {
         width: 95%;
         margin: 5%;
-        padding: 2%;
 }
 }
