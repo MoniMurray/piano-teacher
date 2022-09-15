@@ -75,7 +75,13 @@ The user is required to enter their name and email address.  Placeholder text pr
 
 The user is required to:
 
- select a radio button to specify if they would like to take this lesson In Person or Online; indicate, by ticking a checkbox, whether they have previous experience taking piano lessons; and, use a radio button selection to specify whether the user is an Adult signing up for lessons for themselves, or whether the user is a Parent signing up for lessons for their child.  Each of these sections are required and a user will be prompted to complete any of these sections left blank on clicking 'Book Your Lesson'.  The user will submit their information via the 'Book Your Lesson' submit button.  The submit button also contains a hover feature which causes it to change colour on mouse hovering over it.
+- select a radio button to specify if they would like to take this lesson In Person or Online; 
+- indicate, by ticking a checkbox, whether they have previous experience taking piano lessons; and, 
+- use a radio button selection to specify whether the user is an Adult signing up for lessons for themselves, or whether the user is a Parent signing up for lessons for their child.  
+
+Each of the above user inputs are required, and a user will be prompted to complete any of these sections left blank on clicking 'Book Your Lesson'.  
+
+The user will submit their information via the 'Book Your Lesson' submit button.  The submit button also contains a hover feature which causes it to change colour on mouse hovering over it.
 
 The html for this page is contained in get-in-touch.html, with CSS code contained in the style.css file.
 
@@ -90,17 +96,19 @@ If this website were to be used by a real-world Piano teacher I would include pa
 
 ## Testing
 
-During coding and while ensuring the page was responsive, I had some issues with margin size interfering with element appearances on the page.  I used DevTools to source and fix the problem as it arose.
+During coding and while ensuring the page was responsive, I had some issues with margin size interfering with different element appearances on the page.  I used DevTools to source and fix the problem as it arose.  I also used Tutor Support when I needed to.
 
-Including a Hamburger drop-down navigation menu took some additional upskilling, and styling the hamburger and it's drop-down menu took time to perfect.  I initially used another of my repositories to work on coding the navigation bar, following instructions from codepen.io, before bringing the code into my Project to fine tune within the pages of my site.
+Including a Hamburger drop-down navigation menu took some additional upskilling, and styling the hamburger and it's drop-down menu took time to perfect.  I initially used another of my repositories to work on coding the navigation bar, following instructions from codepen.io, before bringing the code into my Project to fine-tune within the pages of my site.
 
 I have tested the links contained within the site on pc and mobile devices.  
 
-I have tested the functionality of the Form, ensuring that where required information is missing that a user is prompted to include that information before they can submit the form.  The form's submission goes to the [CI](https://formdump.codeinstitute.net/). 
+I have tested the functionality of the Form, ensuring that where 'required' information or input has not been provided by the user, that the user is prompted to include that information before they can submit the form.  The form's submission goes to the [CI](https://formdump.codeinstitute.net/), has been tested, and is fully functional. 
 
-Each of the site's pages work well and are responsive on different size devices.
+Each of the site's pages work well and are responsive on different sized devices, from small-screen at max-width 320px to mid-screen at max-width 768px to larger laptop size and pc.  
 
-The site has been tested and works well on Chrome, Edge and Firefox.  The site does not display as intented on Internet Explorer - you can see ![here](/assets/images/README-screenshots/ie-display-problems.png) that the website logo is hidden behind the hero image, and the hamburger menu, though not deployed, is visible in the right side of the screen.
+The site has been tested and works well on Chrome, Edge and Firefox.  
+
+The site does not display as intented on Internet Explorer - you can see ![here](/assets/images/README-screenshots/ie-display-problems.png) that the website logo is hidden behind the hero image, and the hamburger menu, though not deployed, is visible in the right side of the screen.
 
 <!-- In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
@@ -108,7 +116,6 @@ In addition, you should mention in this section how your project looks and works
 
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here. -->
 
 ## Validator Testing
 

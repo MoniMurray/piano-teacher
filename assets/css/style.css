@@ -4,7 +4,7 @@
 
 * {
     /* margin: 0; */
-    border: auto;
+    border: 0;
     padding: 0;
 }
 
@@ -346,7 +346,6 @@ label {
 h3 {
     color: #fafafa;
     text-align: center;
-    margin: 0 20 0 0;
 }
 
 .signup-form {
@@ -429,13 +428,11 @@ footer {
     background-color: #2a2a2a;
 }
 
-/* Mobile first responsive design - media queries */
+/* media queries */
 
 [class*] {
     width: 100%;
 }
-
-
 
 @media screen and (max-width: 1200px) {
 
@@ -483,17 +480,12 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-    
-    /* .website-logo {
-        left: 6rem;
-        width: 100%; */
-    
+        
         .website-logo {
             font-size: 1.5rem;
             left: 1rem;
             top: 3rem;
             width: 100%;
-            /* margin: none; */
         }
     
     h1 {
@@ -529,7 +521,6 @@ footer {
         left: 1rem;
         top: 3rem;
         width: 100%;
-        margin: none;
     }
 }
     
@@ -540,7 +531,6 @@ footer {
         left: 1rem;
         top: 3rem;
         width: 100%;
-        margin: none;
     }
 
     h1 {
