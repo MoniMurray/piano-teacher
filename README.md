@@ -108,18 +108,21 @@ Each of the site's pages work well and are responsive on different sized devices
 
 The site has been tested and works well on Chrome, Edge and Firefox.  
 
-The site does not display as intented on Internet Explorer - you can see ![here](/assets/images/README-screenshots/ie-display-problems.png) that the website logo is hidden behind the hero image, and the hamburger menu, though not deployed, is visible in the right side of the screen.
+The site does not display as intented on Internet Explorer - you can see below that the website logo is hidden behind the hero image, and the hamburger menu, though not deployed, is visible in the right side of the screen.
+
+![here](/assets/images/README-screenshots/ie-display-problems.png)
 
 <!-- In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet. -->
 
 
 ## Validator Testing
 
 HTML
+
 First pass through W3C validator returned an error in the meta element where the 'name' and 'content' attributes were incorrectly assigned. Fixed.
 
 Following the inclusion of the Hamburger menu, the W3C validator returned an error relating to the list elements containing the navigation anchor elements.  Fixed by adding an unordered list element as a parent to these list elements.
@@ -128,7 +131,11 @@ No errors were subsequently returned when passing through the official W3C valid
 ![W3C Validation Screenshot](/assets/images/README-screenshots/w3c-validator-check.png)
 
 CSS
-No errors were found when passing through the official (Jigsaw) validator
+
+First pass through Jigsaw validator returned value errors (fixed) and parse errors.
+
+
+<!-- No errors were found when passing through the official (Jigsaw) validator -->
 <!-- Unfixed Bugs
 You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. -->
 
@@ -161,7 +168,9 @@ Landing page hero image credited to [Unsplash](https://unsplash.com/s/photos/pia
 
 How to create a fixed Navigation bar [W3Schools](https://www.w3schools.com/howto/howto_css_fixed_menu.asp). Amended to suit my Piano Teacher design.
 
-### Responsivness
+### Content
+
+#### Responsiveness
 
 Responsive placement of text over an image googled and learned from [W3Schools](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_hero_image).
 
@@ -169,13 +178,13 @@ Media screen responsivness and how to style sections for smaller device sizes ta
 
 Responsive Hamburger menu using CSS credited to [www.codepen.io](https://codepen.io/alvarotrigo/pen/wvrzPWL) and adapted to suit the style of this Project's website.
 
-### Form Creation
+#### Form Creation
 
 The Form on the Get in Touch page was created by following the steps in Challenges 1 and 2 of Love Running Walkthrough project, with adjustments to suit the Piano Teacher form as I designed.
 
 ## Wireframe
 
-The Wireframe for this Project was created using Balsamiq and can be viewed ![here]
+The Wireframe for this Project was created using Balsamiq and can be viewed ![here](/assets/images/README-screenshots/balsamiq-wireframe.png)
 
 
 
