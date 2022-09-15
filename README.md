@@ -4,7 +4,7 @@ This is the website of a fictional Piano Teacher offering tuition in piano in Co
 
 A User will be able to see at a glance, on the Home page, the Piano Teacher's credentials, that lessons can be provided either in-person or online, and that piano students of all ages and experience levels are welcome to take lessons.
 
-![](/assets/images/amiresponsive-screenshots.png)
+![](/assets/images/README-screenshots/amiresponsive-screenshots.png)
 
 ## Features
 
@@ -16,11 +16,11 @@ Featured on all three pages are the Website logo and hamburger-styled drop-down 
 
 The navigation menu contains links to the Home page, Lessons page and Get in Touch page, and is identical in each page to allow for intuitive navigation.
 
-![Logo-and-Navigation-bar](/assets/images/hamburger-closed.png)
+![](/assets/images/README-screenshots/hamburger-closed.png)
 
 This navigation menu is deployed on clicking the hamburger three-lines.  
 
-![Hamburger-menu](/assets/images/hamburger-open)
+![](/assets/images/README-screenshots/hamburger-open)
 
 The interactive navigation menu will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 An underline will appear on the drop-down menu under the name of the website page currently being viewed by the user.
@@ -61,7 +61,7 @@ The html for this page is contained in get-in-touch.html, with CSS code containe
 
 ## Images
 
-Images for the Project can be viewed in the Images sub-folder of the Assets folder [here](assets/images).
+Images for the Project can be viewed in the Images sub-folder of the Assets folder [here](assets/images/).
 
 ## Future feature ideas
 
@@ -80,7 +80,7 @@ I have tested the functionality of the Form, ensuring that where required inform
 
 Each of the site's pages work well and are responsive on different size devices.
 
-The site has been tested and works well on Chrome, Edge and Firefox.  The site does not display as intented on Internet Explorer - you can see ![here](/assets/images/ie-display-problems.png) that the website logo is hidden behind the hero image, and the hamburger menu, though not deployed, is visible in the right side of the screen.
+The site has been tested and works well on Chrome, Edge and Firefox.  The site does not display as intented on Internet Explorer - you can see ![here](/assets/images/README-screenshots/ie-display-problems.png) that the website logo is hidden behind the hero image, and the hamburger menu, though not deployed, is visible in the right side of the screen.
 
 <!-- In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
@@ -98,7 +98,7 @@ First pass through W3C validator returned an error in the meta element where the
 Following the inclusion of the Hamburger menu, the W3C validator returned an error relating to the list elements containing the navigation anchor elements.  Fixed by adding an unordered list element as a parent to these list elements.
 
 No errors were subsequently returned when passing through the official W3C validator    
-![W3C Validation Screenshot](/assets/images/w3c-validator-check.png)
+![W3C Validation Screenshot](/assets/images/README-screenshots/w3c-validator-check.png)
 
 CSS
 No errors were found when passing through the official (Jigsaw) validator
@@ -122,7 +122,9 @@ The following is a live link to the site - https://monimurray.github.io/piano-te
 
 My mentor provided invaluable help in suggesting better ways to code sections of my site for functionality and responsiveness, for example Flexbox and Hamburger Menu.  My mentor also encouraged me to make better use of DevTools to trial lines of CSS before including what worked in Gitpod.
 
-Colleagues on the SB-jul-2022 Slack channel answered questions and provided encouragment and feedback, and asked questions themselves that helped point me in the right direction when an area of code or point of procedure was proving difficult.
+Colleagues on Slack channels answered questions and provided encouragment and feedback, and asked questions themselves that helped point me in the right direction when an area of code, or point of procedure, was proving difficult.
+
+Tutor support helped me by pointing out the different screen break-points and also by assisting me to locate the source of a bug in my Header whereby the logo was not shrinking correctly at small screen size.  They provided me further reading material and reference material which helped me get to the finish line.
 
 ### Media
 
