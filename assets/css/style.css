@@ -433,59 +433,12 @@ footer {
     width: 100%;
 }
 
-@media screen and (max-width: 670px) {
-    
-/* .website-logo {
-    left: 6rem;
-    width: 100%; */
 
-    .website-logo {
-        font-size: 1.5rem;
-        left: 1rem;
-        top: 3rem;
-        width: 100%;
-        margin: none;
-    }
-
-h1 {
-    margin: 0 auto;
-}
-
-#signup {
-    height: 100%;
-}
-
-.signup-form {
-    
-    padding: 2%;
-    top: 5%;
-    left: 1%;
-    margin-right: 1%;
-    }
-
-    label {
-        font-size: 1rem;
-    }
-    
-    .signup-form p {
-        font-size: 1rem;
-    }
-
-}
 
 @media screen and (max-width: 1200px) {
 
-    /* #nav-menu {
-        clear: left;
-        float: left;
-        margin-bottom: 20px;
-        line-height: 25px;
-        font-weight: bold;
-    } */
-
        .website-logo {
         left: 25%;
-        margin: none;
     }
 
     .website-logo h1 {
@@ -523,10 +476,62 @@ h1 {
     .flex-container>#Lessons-for-Adults,
 #Lessons-for-Children {
         width: 95%;
-        /* margin: 5%; */
 }
 
 }
+
+@media screen and (max-width: 670px) {
+    
+    /* .website-logo {
+        left: 6rem;
+        width: 100%; */
+    
+        .website-logo {
+            font-size: 1.5rem;
+            left: 1rem;
+            top: 3rem;
+            width: 100%;
+            /* margin: none; */
+        }
+    
+    h1 {
+        margin: 0 auto;
+    }
+    
+    #signup {
+        height: 100%;
+    }
+    
+    .signup-form {
+        
+        padding: 2%;
+        top: 5%;
+        left: 1%;
+        margin-right: 1%;
+        }
+    
+        label {
+            font-size: 1rem;
+        }
+        
+        .signup-form p {
+            font-size: 1rem;
+        }
+    
+    }
+
+@media screen and  (max-width: 375px) {
+
+    .website-logo {
+        font-size: 1rem;
+        left: 1rem;
+        top: 3rem;
+        width: 100%;
+        margin: none;
+    }
+}
+    
+
 
 @media screen and (max-width: 320px) {
     
