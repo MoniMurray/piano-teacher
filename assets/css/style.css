@@ -8,8 +8,6 @@
     padding: 0;
 }
 
-/* Design colours broadly follow the traditional piano keyboard of black/ivory or black/white */
-
 body {
     font-family: Lato, sans-serif;
     font-weight: 500;
@@ -17,8 +15,8 @@ body {
     background-color: #eee;
 }
 
-
 /* Header and Hamburger Menu Navigation as learned from codepen.io and practised in my own repo Piano Lessons */
+
 .container {
     margin: 0 auto;
     align-items: center;
@@ -26,21 +24,23 @@ body {
 }
 
 /* full header width */
+
 .nav-bar {
     width: 100%;
     line-height: 5rem;;
 }
 
 .nav-container {
-    /* display: block; */
+    
     display: flex;
     position: relative;
     height: 8rem;
     vertical-align: middle;
     justify-content: space-between;
     align-items: center;
-    /* width: 95%; */
+    
 }
+
 .nav-bar .nav-menu {
     display: flex;
 }
@@ -48,7 +48,6 @@ body {
 .nav-bar .nav-container li {
     list-style: none;
 }
-
 
 .nav-bar .nav-container a {
     text-decoration: none;
@@ -64,8 +63,6 @@ body {
     border-bottom: 1px solid #3a3a3a;
     color: #3a3a3a;
 }
-
-
 
 .nav-container .checkbox {
     position: absolute;
@@ -84,6 +81,7 @@ body {
 }
 
 /* hamburger lines */
+
 .nav-container .hamburger-lines {
     display: block;
     height: 26px;
@@ -109,9 +107,11 @@ body {
     transform-origin: 0% 0%;
     transition: transform 0.4s ease-in-out;
 }
+
 .nav-container .hamburger-lines .line2 {
     transition: transform 0.2s ease-in-out;
 }
+
 .nav-container .hamburger-lines .line3 {
     transform-origin: 0% 100%;
     transition: transform 0.4s ease-in-out;
@@ -159,6 +159,8 @@ body {
 
 }
 
+/* turn hamburger lines into an X */
+
 .nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
     transform: rotate(45deg);
 }
@@ -166,6 +168,7 @@ body {
 .nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line2 {
     transform: scaleY(0);
 }
+
 .nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
     transform: rotate(-45deg);
 }
@@ -236,7 +239,7 @@ h2 {
 
 .adult-lessons {
     background: url(../images/woman-playing-piano.jpeg) no-repeat center center;
-    /* width: 33%; */
+    
     height: 300px;
     position: relative;
     background-size: cover;
@@ -244,7 +247,7 @@ h2 {
 
 .piano-keyboard {
     background: url(../images/piano-keyboard-image.jpg) no-repeat center center;
-    /* width: 33%; */
+    
     height: 300px;
     position: relative;
     background-size: cover;
@@ -252,7 +255,7 @@ h2 {
 
 .children-playing {
     background: url(../images/two-children-playing-piano.jpeg) no-repeat center center;
-    /* width: 33%; */
+    
     height: 300px;
     position: relative;
 }
@@ -382,7 +385,6 @@ h3 {
     text-align: center;
     font-size: 100%;
     color: #2a2a2a;
-    /* display: block center; */
     background-color: #a7a0a0;
     display: inline-block;
 }
@@ -429,10 +431,6 @@ footer {
 }
 
 /* media queries */
-
-[class*] {
-    width: 100%;
-}
 
 @media screen and (max-width: 1200px) {
 
