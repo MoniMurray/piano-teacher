@@ -10,10 +10,19 @@ A User will be able to see at a glance, on the Home page, the Piano Teacher's cr
 
 Hamburger menu opening drop-down navigation menu; Sign-up Form requiring user input.
 
-### Navigation Bar
+### Website Logo and Navigation menu
 
-Featured on all three pages, the fully responsive, hamburger-styled drop-down navigation bar includes links to the Home page, Lessons page and Get in Touch page, and is identical in each page to allow for intuitive navigation.
-This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
+Featured on all three pages are the Website logo and hamburger-styled drop-down navigation menu.   
+
+The navigation menu contains links to the Home page, Lessons page and Get in Touch page, and is identical in each page to allow for intuitive navigation.
+
+![Logo-and-Navigation-bar](/assets/images/hamburger-closed.png)
+
+This navigation menu is deployed on clicking the hamburger three-lines.  
+
+![Hamburger-menu](/assets/images/hamburger-open)
+
+The interactive navigation menu will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 An underline will appear on the drop-down menu under the name of the website page currently being viewed by the user.
 Hovering over a page name in the navigation menu will cause that page name to be underlined temporarily.
 
