@@ -274,12 +274,14 @@ h2 {
         font-size: 1.5em;
         
         font-weight: bold;
+        letter-spacing: 2px;
     }
 
     .bio-text p {
         font-size: 1em;
         
         font-weight: bold;
+        letter-spacing: 2px;
     }
 
 /* Lessons Page */
@@ -480,7 +482,7 @@ footer {
 
 }
 
-@media screen and (max-width: 670px) {
+@media screen and (max-width: 768px) {
     
     /* .website-logo {
         left: 6rem;
@@ -531,8 +533,6 @@ footer {
     }
 }
     
-
-
 @media screen and (max-width: 320px) {
     
     .website-logo {
