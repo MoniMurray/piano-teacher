@@ -100,13 +100,11 @@ During coding and while ensuring the page was responsive, I had some issues with
 
 Including a Hamburger drop-down navigation menu took some additional upskilling, and styling the hamburger and it's drop-down menu took time to perfect.  I initially used another of my repositories to work on coding the navigation bar, following instructions from codepen.io, before bringing the code into my Project to fine-tune within the pages of my site.
 
-I have tested the links contained within the site on pc and mobile devices.  
+I have tested the site and all links contained within the site on PC, on Chrome, Edge and Firefox, on ipad, and on Samsumg Galaxy and iPhone 13 mobile phones.  Testing initially showed no bugs, but the iphone 13 screen size displayed the Website logo split with the word 'Teacher' dropping below the hero image.  I expanded the media query originally set to max-width 375px up to 385px to fix this issue. 
 
 I have tested the functionality of the Form, ensuring that where 'required' information or input has not been provided by the user, that the user is prompted to include that information before they can submit the form.  The form's submission goes to the [CI](https://formdump.codeinstitute.net/), has been tested, and is fully functional. 
 
 Each of the site's pages work well and are responsive on different sized devices, from small-screen at max-width 320px to mid-screen at max-width 768px to larger laptop size and pc.  
-
-The site has been tested and works well on Chrome, Edge and Firefox.  
 
 The site does not display as intented on Internet Explorer - you can see below that the website logo is hidden behind the hero image, and the hamburger menu, though not deployed, is visible in the right side of the screen.
 
