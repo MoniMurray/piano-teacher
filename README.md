@@ -16,27 +16,35 @@ Featured on all three pages are the Website logo and hamburger-styled drop-down 
 
 The navigation menu contains links to the Home page, Lessons page and Get in Touch page, and is identical in each page to allow for intuitive navigation.
 
-![](/assets/images/README-screenshots/hamburger-closed.png)
+![](/assets/images/README-screenshots/Hamburger-closed.png)
 
 This navigation menu is deployed on clicking the hamburger three-lines.  
 
-![](/assets/images/README-screenshots/hamburger-open)
+![](/assets/images/README-screenshots/Hamburger-open.png)
 
-The interactive navigation menu will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
+The interactive navigation menu will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the browser ‘back’ button.
 An underline will appear on the drop-down menu under the name of the website page currently being viewed by the user.
 Hovering over a page name in the navigation menu will cause that page name to be underlined temporarily.
 
 ### The Footer
 
 The footer section includes links to the relevant social media sites for the fictional Piano Teacher. Each of the links will open to a new browser tab to allow easy navigation for the user.
-The footer is valuable to the user as it encourages them to keep connected to the fictional Piano Teacher via social media.  The footer also includes an external link to the Royal Irish Academy of Music from where they can purchase Grade related sheet music and register for Grade exams. The footer section is common across the three pages of the website.
+
+![](/assets/images/README-screenshots/footer-screenshot.png)
+
+The footer is valuable to the user as it encourages them to keep connected to the fictional Piano Teacher via social media.  The footer also includes an external link to the Royal Irish Academy of Music from where they can purchase Grade related sheet music and register for Grade exams. 
+
+The footer section is common across the three pages of the website.
+
 Each of the social media links were created using font awesome.  Hovering over any of the footer links will cause that link to highlighted.
 
 ## Home page 
 
 The landing page, or Home Page, includes a photograph with text overlay to allow the user to see that this is a website introducing and offering the professional service of an experienced Piano teacher.
+
 This section introduces the user to the Piano Teacher with a background image selected to compliment and reinforce the purpose of the site.
 
+![](/assets/images/README-screenshots/Home-page.png)
 
 ### Piano Teacher's Biography
 
@@ -48,14 +56,26 @@ The html for the Home page is contained in index.html, with CSS code contained i
 ## Lessons page
 
 The Lessons page provides the user with information about the lessons provided by the Piano Teacher and what they broadly cover.
-This section is valuable to the user as they will be able to easily identify both the lessons provided for Adults and the lessons provided for Children, the duration of those lessons and what they cover.  
+
+![](/assets/images/README-screenshots/Lessons-page.png)
+
+This section is valuable to the user as they will be able to easily identify both the lessons provided for Adults and the lessons provided for Children, the duration of those lessons and what they cover.
+
 The images on the Lessons page appear in a row on a large screen view, and appear in a column in mid- and small screen view.
 
 The html for this page is contained in lessons.html, with CSS code contained in the style.css file.
 
 ## Get in Touch page
 
-This page allows the user to submit a sign-up Form to book a lesson with the fictional Piano Teacher.  The user is required to enter their name and email address.  The user is required to select a radio button to specify if they would like to take this lesson In Person or Online; indicate, by ticking a checkbox, whether they have previous experience taking piano lessons; and, use a radio button selection to specify whether the user is an Adult signing up for lessons for themselves, or whether the user is a Parent signing up for lessons for their child.  Each of these sections are required and a user will be prompted to complete any of these sections left blank on clicking 'Book Your Lesson'.  The user will submit their information via the 'Book Your Lesson' submit button.  The submit button also contains a hover feature which causes it to change colour on mouse hovering over it.
+This page allows the user to submit a sign-up Form to book a lesson with the fictional Piano Teacher.  
+
+![](/assets/images/README-screenshots/Get-in-Touch-page.png)
+
+The user is required to enter their name and email address.  Placeholder text prompts the user where to input their details in both of these input fields. 
+
+The user is required to:
+
+ select a radio button to specify if they would like to take this lesson In Person or Online; indicate, by ticking a checkbox, whether they have previous experience taking piano lessons; and, use a radio button selection to specify whether the user is an Adult signing up for lessons for themselves, or whether the user is a Parent signing up for lessons for their child.  Each of these sections are required and a user will be prompted to complete any of these sections left blank on clicking 'Book Your Lesson'.  The user will submit their information via the 'Book Your Lesson' submit button.  The submit button also contains a hover feature which causes it to change colour on mouse hovering over it.
 
 The html for this page is contained in get-in-touch.html, with CSS code contained in the style.css file.
 
