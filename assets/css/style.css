@@ -319,9 +319,21 @@ h2 {
 
 .bio-text p a:hover {
   color: black;
-  /* color: #a7a0a0;
-  background-color: #2a2a2a; */
+  
 }
+
+.audio {
+    background-color: #eee;
+    text-align: center;
+}
+
+.audio iframe {
+    top: 0
+    left: 0
+    width:auto;
+    align-items: center;
+}
+
 /* Get In Touch Page */
 
 #signup-outer {
@@ -530,4 +542,14 @@ footer {
   h1 {
     margin: 0 auto;
   }
+  
+  .audio {
+    background-color: #eee;
+    text-align: center;
+}
+
+.audio iframe {
+    align-items: center;
+    width: auto;
+    height: auto;
 }
