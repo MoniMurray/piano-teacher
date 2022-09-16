@@ -290,7 +290,7 @@ h2 {
 
 .flex-container > #Lessons-for-Adults,
 #Lessons-for-Children {
-  height: 600px;
+  height: 80vh;
   margin: 1%;
 }
 
@@ -311,6 +311,17 @@ h2 {
   position: relative;
 }
 
+.bio-text p a {
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+
+.bio-text p a:hover {
+  color: black;
+  /* color: #a7a0a0;
+  background-color: #2a2a2a; */
+}
 /* Get In Touch Page */
 
 #signup-outer {
