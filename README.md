@@ -18,7 +18,7 @@ Featured on all three pages are the Website logo and hamburger-styled drop-down 
 
 The navigation menu contains links to the Home page, Lessons page and Get in Touch page, and is identical in each page to allow for intuitive navigation.
 
-![](/assets/images/README-screenshots/Hamburger-closed.png)
+![](/assets/images/README-screenshots/hamburger-closed.png)
 
 This navigation menu is deployed on clicking the hamburger three-lines.  
 
@@ -28,7 +28,7 @@ The interactive navigation menu will allow the user to easily navigate from page
 An underline will appear on the drop-down menu under the name of the website page currently being viewed by the user.
 Hovering over a page name in the navigation menu will cause that page name to be underlined temporarily.
 
-### Footer
+### Interactive Footer
 
 The footer section includes links to the relevant social media sites for the fictional Piano Teacher. Each of the links will open to a new browser tab to allow easy navigation for the user.
 
@@ -39,6 +39,22 @@ The footer is valuable to the user as it encourages them to keep connected to th
 The footer section is common across the three pages of the website.
 
 Each of the social media link icons were created using font awesome.  Hovering over any of the footer links will cause that link to highlighted.
+
+### Sign-up Form
+
+The user is required to enter their name and email address.  Placeholder text prompts the user where to input their details in both of these input fields.
+
+![](/assets/images/README-screenshots/Sign-up-form.bmp)
+
+The user is required to:
+
+- select a radio button to specify if they would like to take this lesson In Person or Online; 
+- indicate, by ticking a checkbox, whether they have previous experience taking piano lessons; and, 
+- use a radio button selection to specify whether the user is an Adult signing up for lessons for themselves, or whether the user is a Parent signing up for lessons for their child.  
+
+Each of the above user inputs are *required*, and a user will be prompted to complete any of these sections left blank on clicking 'Book Your Lesson'.
+
+
 
 ## Home page 
 
@@ -72,16 +88,6 @@ The html for this page is contained in lessons.html, with CSS code contained in 
 This page allows the user to submit a sign-up Form to book a lesson with the fictional Piano Teacher.  
 
 ![](/assets/images/README-screenshots/Get-in-Touch-page.png)
-
-The user is required to enter their name and email address.  Placeholder text prompts the user where to input their details in both of these input fields. 
-
-The user is required to:
-
-- select a radio button to specify if they would like to take this lesson In Person or Online; 
-- indicate, by ticking a checkbox, whether they have previous experience taking piano lessons; and, 
-- use a radio button selection to specify whether the user is an Adult signing up for lessons for themselves, or whether the user is a Parent signing up for lessons for their child.  
-
-Each of the above user inputs are required, and a user will be prompted to complete any of these sections left blank on clicking 'Book Your Lesson'.  
 
 The user will submit their information via the 'Book Your Lesson' submit button.  The submit button also contains a hover feature which causes it to change colour on mouse hovering over it.
 
