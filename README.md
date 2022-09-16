@@ -6,6 +6,17 @@ A User will be able to see at a glance, on the Home page, the Piano Teacher's cr
 
 ![](/assets/images/README-screenshots/amiresponsive-screenshots.png)
 
+## User Experience
+
+With the neutral colour palette, text size and colour, and images chosen to support the theme of the website, a user's experience on the website will be positive.
+
+### User Stories
+
+- A user will see at a brief glance the purpose of the website.
+- A user can navigate smoothly and intuitively from page to page through the website.
+- A user can find easily information about the Piano Teacher and the lessons available.
+- A user can choose to get in touch with the piano teacher by inputting some basic information.
+
 ## Features
 
 - Hamburger menu opening drop-down navigation menu; 
