@@ -48,26 +48,27 @@ The user is required to enter their name and email address.  Placeholder text pr
 
 The user is required to:
 
-- select a radio button to specify if they would like to take this lesson In Person or Online; 
-- indicate, by ticking a checkbox, whether they have previous experience taking piano lessons; and, 
+- indicate, by ticking a checkbox, whether they have previous experience taking piano lessons;
+- select a radio button to specify if they would like to take this lesson In Person or Online; and, 
 - use a radio button selection to specify whether the user is an Adult signing up for lessons for themselves, or whether the user is a Parent signing up for lessons for their child.  
 
-Each of the above user inputs are *required*, and a user will be prompted to complete any of these sections left blank on clicking 'Book Your Lesson'.
-
-
+The radio button inputs are *required*, and a user will be prompted to complete these sections if left blank on clicking 'Book Your Lesson'.
 
 ## Home page 
 
-The landing page, or Home Page, includes a photograph with text overlay to allow the user to see that this is a website introducing and offering the professional service of an experienced Piano teacher.
+The landing page, or Home Page, includes:
 
-This section introduces the user to the Piano Teacher with a background image selected to compliment and reinforce the purpose of the site.
+- the website logo;
+- an image with text overlay to allow the user to see that this is a website introducing and offering the professional service of an experienced Piano teacher; and,
+- a biography section which allows the user see the biography of the Piano teacher overlaid over three further images.
+
+The images selected compliment and reinforce the purpose of the site.
 
 ![](/assets/images/README-screenshots/Home-page.png)
 
-### Piano Teacher's Biography
+The three biography section background images appear in a row on large screen view, and appear in a column in mid-and small screen view.
 
-The Biography section allows the user see the biography of the Piano teacher overlaid on three further images, following UX 'Rule of 3'. 
-The background images appear in a row on large screen view, and appear in a column in mid-and small screen view.
+![](/assets/images/README-screenshots/biography-column-view.png)
 
 The html for the Home page is contained in index.html, with CSS code contained in the style.css file.
 
@@ -80,6 +81,8 @@ The Lessons page provides the user with information about the lessons provided b
 This section is valuable to the user as they will be able to easily identify both the lessons provided for Adults and the lessons provided for Children, the duration of those lessons and what they cover.
 
 The images on the Lessons page appear in a row on a large screen view, and appear in a column in mid- and small screen view.
+
+![](/assets/images/README-screenshots/lessons-column-view.png)
 
 The html for this page is contained in lessons.html, with CSS code contained in the style.css file.
 
