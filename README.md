@@ -159,6 +159,7 @@ From the Code and Automation area on the left side of the page, select Pages;
 From the source section drop-down menu, select the Master Branch, select Save;
 The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 Once again navigate to the Settings tab, and then to Pages where the live link can now be found.
+
 The following is a live link to the site - https://monimurray.github.io/piano-teacher/
 
 ## Credits
@@ -169,15 +170,13 @@ Colleagues on Slack channels answered questions and provided encouragment and fe
 
 Tutor support helped me by pointing out the different screen break-points and also by assisting me to locate the source of a bug in my Header whereby the logo was not shrinking correctly at small screen size.  They provided me further reading material and reference material which helped me get to the finish line.
 
-### Media
+### Media & Content
 
 Most images credited to [Pexels](http://www.pexels.com).  
 
 Landing page hero image credited to [Unsplash](https://unsplash.com/s/photos/piano).
 
 How to create a fixed Navigation bar [W3Schools](https://www.w3schools.com/howto/howto_css_fixed_menu.asp). Amended to suit my Piano Teacher design.
-
-### Content
 
 #### Responsiveness
 
@@ -198,16 +197,6 @@ The Wireframe for this Project was created using Balsamiq and can be viewed ![he
 
 
 <!-- In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.
-
-You can break the credits section up into Content and Media, depending on what you have included in your project.
-
-Content
-The text for the Home page was taken from Wikipedia Article A
-Instructions on how to implement form validation on the Sign Up page was taken from Specific YouTube Tutorial
-The icons in the footer were taken from Font Awesome
-Media
-The photos used on the home and sign up page are from This Open Source site
-The images used for the gallery page were taken from this other open source site -->
 
 The following is good advice from CI...
 
