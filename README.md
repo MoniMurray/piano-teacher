@@ -8,7 +8,9 @@ A User will be able to see at a glance, on the Home page, the Piano Teacher's cr
 
 ## Features
 
-Hamburger menu opening drop-down navigation menu; Sign-up Form requiring user input.
+- Hamburger menu opening drop-down navigation menu; 
+- Interactive Footer containing external links; and
+- Sign-up Form requiring user input.
 
 ### Website Logo and Navigation menu
 
@@ -22,15 +24,15 @@ This navigation menu is deployed on clicking the hamburger three-lines.
 
 ![](/assets/images/README-screenshots/Hamburger-open.png)
 
-The interactive navigation menu will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the browser ‘back’ button.
+The interactive navigation menu will allow the user to easily navigate from page to page across all devices without having to revert to the previous page via the browser ‘back’ button.
 An underline will appear on the drop-down menu under the name of the website page currently being viewed by the user.
 Hovering over a page name in the navigation menu will cause that page name to be underlined temporarily.
 
-### The Footer
+### Footer
 
 The footer section includes links to the relevant social media sites for the fictional Piano Teacher. Each of the links will open to a new browser tab to allow easy navigation for the user.
 
-![](/assets/images/README-screenshots/footer-screenshot.png)
+<p style="text-align: center">![](/assets/images/README-screenshots/footer-screenshot.png)</p>
 
 The footer is valuable to the user as it encourages them to keep connected to the fictional Piano Teacher via social media.  The footer also includes an external link to the Royal Irish Academy of Music from where they can purchase Grade related sheet music and register for Grade exams. 
 
