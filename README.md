@@ -32,13 +32,13 @@ Hovering over a page name in the navigation menu will cause that page name to be
 
 The footer section includes links to the relevant social media sites for the fictional Piano Teacher. Each of the links will open to a new browser tab to allow easy navigation for the user.
 
-<p style="text-align: center">![](/assets/images/README-screenshots/footer-screenshot.png)</p>
+![](/assets/images/README-screenshots/footer-screenshot.png)
 
 The footer is valuable to the user as it encourages them to keep connected to the fictional Piano Teacher via social media.  The footer also includes an external link to the Royal Irish Academy of Music from where they can purchase Grade related sheet music and register for Grade exams. 
 
 The footer section is common across the three pages of the website.
 
-Each of the social media links were created using font awesome.  Hovering over any of the footer links will cause that link to highlighted.
+Each of the social media link icons were created using font awesome.  Hovering over any of the footer links will cause that link to highlighted.
 
 ## Home page 
 
