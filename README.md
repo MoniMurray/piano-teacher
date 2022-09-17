@@ -189,6 +189,10 @@ Landing page hero image credited to [Unsplash](https://unsplash.com/s/photos/pia
 
 How to create a fixed Navigation bar [W3Schools](https://www.w3schools.com/howto/howto_css_fixed_menu.asp). Amended to suit my Piano Teacher design.
 
+Credit to [RIAM](https://www.riam.ie) for the Preliminary Grade music recording embedded in the Lessons page, and to [W3Schools](https://www.w3schools.com/html/html_youtube.asp) for the lesson on how to embed video and audio using CSS.
+
+Credit to [Google-Maps](https://www.google.com/maps/@53.1593669,-6.8112036,17z) for the embedded iframe link to the map contained on Get in Touch page.
+
 #### Responsiveness
 
 Responsive placement of text over an image googled and learned from [W3Schools](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_hero_image).
