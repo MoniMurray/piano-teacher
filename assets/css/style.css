@@ -325,11 +325,9 @@ h2 {
 
 .audio {
   background-color: #3a3a3a;
-    /* text-align: center; */
     flex-direction: column;
     align-items: center;
     border-radius: 0.125vw;
-  /* padding: 0.625vw; */
   border: 1px solid #3a3a3a;
   width: 98%;
   margin-left: 1%;
@@ -430,6 +428,27 @@ h3 {
   border-color: #3a3a3a;
   color: #a7a0a0;
   background-color: #2a2a2a;
+}
+
+/* Embedded map */
+
+.map {
+  background-color: #eee;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0.125vw;
+  width: 98%;
+  margin-left: 1%;
+  padding: 1%;
+  margin-top: 2%
+  }
+
+.map iframe {
+    top: 0
+    left: 0
+    width:auto;
+    align-items: center;
+    flex-direction: column;
 }
 
 /* footer */
@@ -546,6 +565,14 @@ width: 90%;
   .audio h2 {
     font-size: 2rem;
   }
+
+  .map {
+    background-color: #eee;
+    width: 96%;
+  }
+  
+  .map iframe {
+    width: 96%}
 }
 
 @media screen and (max-width: 385px) {
@@ -598,4 +625,12 @@ width: 90%;
   width: 55%;
   margin: 1%;
 }
+.map {
+  background-color: #eee;
+  width: 96%;
+}
+
+.map iframe {
+  width: 96%}
+
 }
