@@ -147,14 +147,14 @@ First pass through W3C validator returned an error in the meta element where the
 
 Following the inclusion of the Hamburger menu, the W3C validator returned an error relating to the list elements containing the navigation anchor elements.  Fixed by adding an unordered list element as a parent to these list elements.
 
-No errors were subsequently returned when passing through the official W3C validator    
+No errors were subsequently returned when passing through the official W3C HTML validator    
 ![W3C Validation Screenshot](/assets/images/README-screenshots/w3c-validator-check.png)
 
 CSS
 
 First pass through Jigsaw validator returned value errors (fixed) and parse errors.
 
-These were margin errors, and one colour value to a box-shadow attribute where no colour value was required.
+These were margin errors, and one colour value to a box-shadow attribute where no colour value was required.  Once these errors were addressed, my site [passed](http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fmonimurray.github.io%2Fpiano-teacher%2F&usermedium=all&vextwarning=&warning=1).
 
 
 <!-- No errors were found when passing through the official (Jigsaw) validator -->
