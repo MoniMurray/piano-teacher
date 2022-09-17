@@ -323,8 +323,13 @@ h2 {
 }
 
 .audio {
-    background-color: #eee;
-    text-align: center;
+  background-color: #3a3a3a;
+    /* text-align: center; */
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0.125vw;
+  padding: 0.625vw;
+  border: 1px solid #3a3a3a;
 }
 
 .audio iframe {
@@ -332,8 +337,20 @@ h2 {
     left: 0
     width:auto;
     align-items: center;
+    flex-direction: column;
+    border: 1px solid #3a3a3a;
 }
 
+.audio h2 {
+  justify-content: center;
+  text-align: center;
+  color: white;
+  /* background-color: rgb(14 13 13 / 30%);
+  border-radius: 0.125vw;
+  padding: 0.625vw; */
+  width: 55%;
+  margin: 1%;
+}
 /* Get In Touch Page */
 
 #signup-outer {
