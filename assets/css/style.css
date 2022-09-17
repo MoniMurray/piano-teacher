@@ -116,7 +116,7 @@ body {
 
 .nav-bar .nav-menu {
   padding-top: 17rem;
-  box-shadow: outset 0 0 2000px;
+  /* box-shadow: outset 0 0 2000px; */
 
   transform: translate(-150%);
   display: flex;
