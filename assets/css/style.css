@@ -3,7 +3,6 @@
 /* clear inherited box model styling as taught in Love Running Walkthrough Project */
 
 * {
-  /* margin: 0; */
   border: 0;
   padding: 0;
 }
@@ -116,7 +115,6 @@ body {
 
 .nav-bar .nav-menu {
   padding-top: 17rem;
-  /* box-shadow: outset 0 0 2000px; */
 
   transform: translate(-150%);
   display: flex;
@@ -319,6 +317,7 @@ h2 {
   
 }
 
+/* Embedded video */
 
 .audio {
   background-color: #3a3a3a;
@@ -603,11 +602,9 @@ width: 90%;
 .audio iframe {
     align-items: center;
     width: 90%;
-    /* height: auto; */
 }
 .audio {
   background-color: #3a3a3a;
-    /* text-align: center; */
     flex-direction: column;
     align-items: center;
     border-radius: 0.125vw;
