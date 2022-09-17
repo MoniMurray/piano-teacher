@@ -322,14 +322,18 @@ h2 {
   
 }
 
+
 .audio {
   background-color: #3a3a3a;
     /* text-align: center; */
     flex-direction: column;
     align-items: center;
     border-radius: 0.125vw;
-  padding: 0.625vw;
+  /* padding: 0.625vw; */
   border: 1px solid #3a3a3a;
+  width: 98%;
+  margin-left: 1%;
+  padding-bottom: 1%;
 }
 
 .audio iframe {
@@ -345,9 +349,6 @@ h2 {
   justify-content: center;
   text-align: center;
   color: white;
-  /* background-color: rgb(14 13 13 / 30%);
-  border-radius: 0.125vw;
-  padding: 0.625vw; */
   width: 55%;
   margin: 1%;
 }
@@ -537,6 +538,14 @@ footer {
   .signup-form p {
     font-size: 1rem;
   }
+
+  .audio {
+width: 90%;
+  }
+
+  .audio h2 {
+    font-size: 2rem;
+  }
 }
 
 @media screen and (max-width: 385px) {
@@ -545,6 +554,9 @@ footer {
     left: 1rem;
     top: 3rem;
     width: 100%;
+  }
+  .audio h2 {
+    font-size: 1rem;
   }
 }
 
@@ -567,6 +579,23 @@ footer {
 
 .audio iframe {
     align-items: center;
-    width: auto;
-    height: auto;
+    width: 90%;
+    /* height: auto; */
+}
+.audio {
+  background-color: #3a3a3a;
+    /* text-align: center; */
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0.125vw;
+  padding: 0.625vw;
+  border: 1px solid #3a3a3a;
+}
+.audio h2 {
+  justify-content: center;
+  text-align: center;
+  color: white;
+  width: 55%;
+  margin: 1%;
+}
 }
