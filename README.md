@@ -144,7 +144,7 @@ Each of the site's pages work well and are responsive on different sized devices
 
 ## Validator Testing
 
-HTML
+### HTML
 
 First pass through W3C validator returned an error in the meta element where the 'name' and 'content' attributes were incorrectly assigned. Fixed.
 
@@ -153,11 +153,17 @@ Following the inclusion of the Hamburger menu, the W3C validator returned an err
 No errors were subsequently returned when passing through the official W3C HTML validator    
 ![W3C Validation Screenshot](/assets/images/README-screenshots/w3c-validator-check.png)
 
-CSS
+### CSS
 
 First pass through Jigsaw validator returned value errors (fixed) and parse errors.
 
 These were margin errors, and one colour value to a box-shadow attribute where no colour value was required.  Once these errors were addressed, my site [passed](http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fmonimurray.github.io%2Fpiano-teacher%2F&usermedium=all&vextwarning=&warning=1).
+
+### Lighthouse
+
+Lighthouse score is as follows:
+
+![](/assets/images/README-screenshots/lighthouse-score.png)
 
 ## Deployment
 
