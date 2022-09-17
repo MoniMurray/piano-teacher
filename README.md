@@ -215,17 +215,4 @@ The Form on the Get in Touch page was created by following the steps in Challeng
 
 ## Wireframe
 
-The Wireframe for this Project was created using Balsamiq and can be viewed ![here](/assets/images/README-screenshots/balsamiq-wireframe.png)
-
-
-
-<!-- In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.
-
-The following is good advice from CI...
-
-<!-- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
-
-Writing Your Best Code
-HTML & CSS Coding Best Practices
-Google HTML/CSS Style Guide
-Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process! -->
+The Wireframe for this Project was created using Balsamiq. ![here](/assets/images/README-screenshots/balsamiq-wireframe.png)
