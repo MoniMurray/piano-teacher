@@ -335,12 +335,10 @@ h2 {
 }
 
 .audio iframe {
-    top: 0
-    left: 0
-    width:auto;
-    align-items: center;
-    flex-direction: column;
-    border: 1px solid #3a3a3a;
+  width: auto;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid #3a3a3a;
 }
 
 .audio h2 {
@@ -444,11 +442,9 @@ h3 {
   }
 
 .map iframe {
-    top: 0
-    left: 0
-    width:auto;
-    align-items: center;
-    flex-direction: column;
+  width: auto;
+  align-items: center;
+  flex-direction: column;
 }
 
 /* footer */
@@ -526,6 +522,9 @@ footer {
   #Lessons-for-Children {
     width: 95%;
   }
+  .audio {
+    width: 90%;
+      }
 }
 
 @media screen and (max-width: 768px) {
