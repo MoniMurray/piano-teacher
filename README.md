@@ -154,6 +154,8 @@ CSS
 
 First pass through Jigsaw validator returned value errors (fixed) and parse errors.
 
+These were margin errors, and one colour value to a box-shadow attribute where no colour value was required.
+
 
 <!-- No errors were found when passing through the official (Jigsaw) validator -->
 <!-- Unfixed Bugs
