@@ -20,8 +20,10 @@ With the neutral colour palette, text size and colour, and images chosen to supp
 ## Features
 
 - Hamburger menu opening drop-down navigation menu; 
-- Interactive Footer containing external links; and
-- Sign-up Form requiring user input.
+- Interactive Footer containing external links; 
+- Embedded YouTube video of sample RIAM Preliminary Grade piece for 2022;
+- Sign-up Form requiring user input; and
+- Embedded Google map.
 
 ### Website Logo and Navigation menu
 
@@ -51,6 +53,12 @@ The footer section is common across the three pages of the website.
 
 Each of the social media link icons were created using font awesome.  Hovering over any of the footer links will cause that link to highlighted.
 
+### Embedded video
+
+A user-controlled YouTube video is embedded on the Lessons page.
+
+![](/assets/images/README-screenshots/embedded-video.png)
+
 ### Sign-up Form
 
 The user is required to enter their name and email address.  Placeholder text prompts the user where to input their details in both of these input fields.
@@ -64,6 +72,12 @@ The user is required to:
 - use a radio button selection to specify whether the user is an Adult signing up for lessons for themselves, or whether the user is a Parent signing up for lessons for their child.  
 
 The radio button inputs are *required*, and a user will be prompted to complete these sections if left blank on clicking 'Book Your Lesson'.
+
+### Google map
+
+An embedded Google map of the fictional Piano Teacher's lesson location is on the Signup page.
+
+![](/assets/images/README-screenshots/embedded-map.png)
 
 ## Home page 
 
@@ -128,17 +142,6 @@ I have tested the functionality of the Form, ensuring that where 'required' info
 
 Each of the site's pages work well and are responsive on different sized devices, from small-screen at max-width 320px to mid-screen at max-width 768px to larger laptop size and pc.  
 
-The site does not display as intented on Internet Explorer - you can see below that the website logo is hidden behind the hero image, and the hamburger menu, though not deployed, is visible in the right side of the screen.
-
-![here](/assets/images/README-screenshots/ie-display-problems.png)
-
-<!-- In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet. -->
-
-
 ## Validator Testing
 
 HTML
@@ -155,11 +158,6 @@ CSS
 First pass through Jigsaw validator returned value errors (fixed) and parse errors.
 
 These were margin errors, and one colour value to a box-shadow attribute where no colour value was required.  Once these errors were addressed, my site [passed](http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fmonimurray.github.io%2Fpiano-teacher%2F&usermedium=all&vextwarning=&warning=1).
-
-
-<!-- No errors were found when passing through the official (Jigsaw) validator -->
-<!-- Unfixed Bugs
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. -->
 
 ## Deployment
 
@@ -182,6 +180,8 @@ My mentor provided invaluable help in suggesting better ways to code sections of
 Colleagues on Slack channels answered questions and provided encouragment and feedback, and asked questions themselves that helped point me in the right direction when an area of code, or point of procedure, was proving difficult.
 
 Tutor support helped me by pointing out the different screen break-points and also by assisting me to locate the source of a bug in my Header whereby the logo was not shrinking correctly at small screen size.  They provided me further reading material and reference material which helped me get to the finish line.
+
+[W3Schools](https://www.w3schools.com) appeared repeatedly in my Google searches and was a valuable resource throughout this Project.
 
 ### Media & Content
 
