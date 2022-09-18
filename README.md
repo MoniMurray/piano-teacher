@@ -2,17 +2,17 @@
 
 This is the website of a fictional Piano Teacher offering tuition in piano in Co. Kildare, Ireland.
 
-A User will be able to see at a glance, on the Home page, the Piano Teacher's credentials, that lessons can be provided either in-person or online, and that piano students of all ages and experience levels are welcome to take lessons.
+A User will be able to see at a glance on arriving at the Home page the Piano Teacher's credentials and that piano students of all ages and experience levels are welcome to take lessons.
 
 ![](/assets/images/README-screenshots/amiresponsive-screenshots.png)
 
 ## User Experience
 
-With the neutral colour palette, text size and colour, and images chosen to support the theme of the website, a user's experience on the website will be positive.
+With the neutral, complementing colour palette, text size and colour, and images chosen to support the theme of the website, a user's experience on the website will be positive.
 
 ### User Stories
 
-- A user will see at a brief glance the purpose of the website.
+- A user can see at a brief glance the purpose of the website.
 - A user can navigate smoothly and intuitively from page to page through the website.
 - A user can find easily information about the Piano Teacher and the lessons available.
 - A user can choose to get in touch with the piano teacher by inputting some basic information.
@@ -51,7 +51,7 @@ The footer is valuable to the user as it encourages them to keep connected to th
 
 The footer section is common across the three pages of the website.
 
-Each of the social media link icons were created using font awesome.  Hovering over any of the footer links will cause that link to highlighted.
+Each of the social media link icons were created using font awesome.  Hovering over any of the footer icon links will cause that link to highlighted.
 
 ### Embedded video
 
@@ -103,7 +103,7 @@ The Lessons page provides the user with information about the lessons provided b
 
 ![](/assets/images/README-screenshots/Lessons-page.png)
 
-This section is valuable to the user as they will be able to easily identify both the lessons provided for Adults and the lessons provided for Children, the duration of those lessons and what they cover.
+This section is valuable to the user as they will be able to easily identify both the lessons provided for Adults and the lessons provided for Children, the duration of those lessons and what they cover and the cost of lessons for Term 1.
 
 The images on the Lessons page appear in a row on a large screen view, and appear in a column in mid- and small screen view.
 
@@ -127,8 +127,7 @@ Images for the Project can be viewed in the Images sub-folder of the Assets fold
 
 ## Future feature ideas
 
-If this website were to be used by a real-world Piano teacher I would include payment links, ie. via Paypal or Revolut, and enable the user to block-book lessons.
-
+If this website were to be used by a real-world Piano teacher I would include payment links, ie. via Paypal or Revolut, to enable the user to block-book lessons.
 
 ## Testing
 
@@ -136,21 +135,21 @@ During coding and while ensuring the page was responsive, I had some issues with
 
 Including a Hamburger drop-down navigation menu took some additional upskilling, and styling the hamburger and it's drop-down menu took time to perfect.  I initially used another of my repositories to work on coding the navigation bar, following instructions from codepen.io, before bringing the code into my Project to fine-tune within the pages of my site.
 
-I have tested the site and all links contained within the site on PC, on Chrome, Edge and Firefox, on ipad, and on Samsumg Galaxy and iPhone 13 mobile phones.  Testing initially showed no bugs, but the iphone 13 screen size displayed the Website logo split with the word 'Teacher' dropping below the hero image.  I expanded the media query originally set to max-width 375px up to 385px to fix this issue. 
+I have tested the site and all links contained within the site on desktop - on Chrome, Edge and Firefox - on ipad, and on Samsumg Galaxy and iPhone 13 pro mobile phones.  Testing initially showed no bugs, but the iphone 13 screen size displayed the Website logo split with the word 'Teacher' dropping below the hero image.  I expanded the media query originally set to max-width 375px up to 385px to fix this issue. 
 
 I have tested the functionality of the Form, ensuring that where 'required' information or input has not been provided by the user, that the user is prompted to include that information before they can submit the form.  The form's submission goes to the [CI](https://formdump.codeinstitute.net/), has been tested, and is fully functional. 
 
-Each of the site's pages work well and are responsive on different sized devices, from small-screen at max-width 320px to mid-screen at max-width 768px to larger laptop size and pc.  
+Each of the site's pages work well and are responsive on different sized devices, from small-screen at max-width 320px to mid-screen at max-width 768px to larger laptop size and desktop.  
 
 ## Validator Testing
 
 ### HTML
 
-First pass through W3C validator returned an error in the meta element where the 'name' and 'content' attributes were incorrectly assigned. Fixed.
+First pass through W3C validator returned an error in the meta element where the 'name' and 'content' attributes were incorrectly assigned. Fixed by correctly assigning both attributes and their values.
 
 Following the inclusion of the Hamburger menu, the W3C validator returned an error relating to the list elements containing the navigation anchor elements.  Fixed by adding an unordered list element as a parent to these list elements.
 
-No errors were subsequently returned when passing through the official W3C HTML validator    
+No errors were subsequently returned when passing through the official W3C HTML validator.    
 ![W3C Validation Screenshot](/assets/images/README-screenshots/w3c-validator-check.png)
 
 ### CSS
@@ -181,11 +180,11 @@ The following is a live link to the site - https://monimurray.github.io/piano-te
 
 ## Credits
 
-My mentor provided invaluable help in suggesting better ways to code sections of my site for functionality and responsiveness, for example Flexbox and Hamburger Menu.  My mentor also encouraged me to make better use of DevTools to trial lines of CSS before including what worked in Gitpod.
+My mentor provided invaluable help in suggesting better ways to code sections of my site for functionality and responsiveness, for example using Flexbox and introducing a Hamburger Menu.  My mentor also encouraged me to make better use of DevTools to trial lines of CSS before including what worked in Gitpod.
 
 Colleagues on Slack channels answered questions and provided encouragment and feedback, and asked questions themselves that helped point me in the right direction when an area of code, or point of procedure, was proving difficult.
 
-Tutor support helped me by pointing out the different screen break-points and also by assisting me to locate the source of a bug in my Header whereby the logo was not shrinking correctly at small screen size.  They provided me further reading material and reference material which helped me get to the finish line.
+Tutor provided assistance and support by pointing out the different screen break-points and also by assisting me to locate the source of a bug in my Header whereby the logo was not shrinking correctly at small screen size.  They provided me further reading material and reference material which helped me get to the finish line.
 
 [W3Schools](https://www.w3schools.com) appeared repeatedly in my Google searches and was a valuable resource throughout this Project.
 
